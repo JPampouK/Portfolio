@@ -1,0 +1,43 @@
+h2 {
+    font-family: 'Inconsolata', monospace;
+}
+
+#body {
+    background-color: rgb(48, 48, 48);
+}
+
+#überMich {
+    background-color: rgb(48, 48, 48);
+}
+
+section {
+    min-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    padding: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(11, 11, 11);
+    box-shadow: 0 1px 3px black;
+}
+
+header nav {
+    float: right;
+    margin: 10px 50px 0 0;
+}
+
+header nav ul li {
+    float: left;
+    padding-right: 30px;
+}
