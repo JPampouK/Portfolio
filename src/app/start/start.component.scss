@@ -1,31 +1,46 @@
-h2 {
-    font-family: 'Inconsolata', monospace;
-}
-
 #body {
     background-color: rgb(48, 48, 48);
 }
 
-#überMich {
-    background-color: rgb(48, 48, 48);
+#oben {
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
 }
 
 section {
-    min-width: 100%;
+    padding-top: 70px;
+    min-height: 100%;
+    height: 740px;
 }
 
-a {
+hr {
+    background-color: rgb(255, 119, 8);
+    width: 6%;
+    margin: auto;
+    height: 2px;
+    transition: all 0.5s ease;
+}
+
+.txt {
     text-decoration: none;
+    color: white;
 }
 
 li {
+    margin-top: 10px;
     list-style-type: none;
+    transition: all 0.3s ease;
+}
+
+li:hover {
+    transform: translateY(5px);
 }
 
 header {
     width: 100%;
     height: 65px;
-    padding: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     background: rgb(11, 11, 11);
@@ -40,4 +55,103 @@ header nav {
 header nav ul li {
     float: left;
     padding-right: 30px;
+}
+
+//-----------------------Home-------------------------------
+#home {
+    background-color: rgb(48, 48, 48);
+    #name {
+        color: rgb(255, 119, 8);
+        bottom: 400px;
+    }
+    .vorstellen {
+        padding-top: 200px;
+        padding-left: 200px;
+        font-family: 'Inconsolata', monospace;
+        h1 {
+            font-size: 50px;
+        }
+        .txt2 {
+            color: white;
+            text-decoration: none;
+        }
+        .btn-outline-danger {
+            border-color: rgb(255, 119, 8);
+        }
+        .btn-outline-danger:hover {
+            background-color: rgb(255, 119, 8);
+        }
+        #SoftEnt {
+            margin-bottom: 30px;
+        }
+    }
+    img {
+        margin-top: 90px;
+        margin-right: 150px;
+        float: right;
+        width: 300px;
+        border: 10px;
+        clip: rect(auto auto 130px auto);
+    }
+}
+
+//-----------------------Über mich-------------------------------
+#überMich {
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    h1:hover+hr {
+        width: 7.5%;
+    }
+}
+
+//-----------------------Skills-------------------------------
+#skills {
+    h1 {
+        text-align: center;
+    }
+    background-color: rgb(48, 48, 48);
+    h1:hover+hr {
+        width: 7.5%;
+    }
+    .card2 {
+        background-color: rgb(63, 63, 63);
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 80%;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+    .badge {
+        font-size: 20px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+    .progress-bar {
+        background-color: rgb(255, 119, 8);
+    }
+    .tags {
+        text-align: center;
+    }
+    label {
+        text-align: left;
+    }
+}
+
+//-----------------------Werdegang-------------------------------
+#werdegang {
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    h1:hover+hr {
+        width: 7.5%;
+    }
+}
+
+//-----------------------Projekte-------------------------------
+#projekte {
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    h1:hover+hr {
+        width: 7.5%;
+    }
 }

@@ -1,29 +1,83 @@
-<div id="body">
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#überMich">Über mich</a></li>
-                <li><a href="#werdegang">Werdegang</a></li>
-                <li><a href="#projekte">Projekte</a></li>
-            </ul>
-        </nav>
-    </header>
+<!-----------------------------Header----------------------------------------->
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home" class="txt">Home</a></li>
+            <li><a href="#überMich" class="txt">Über mich</a></li>
+            <li><a href="#skills" class="txt">Skills</a></li>
+            <li><a href="#werdegang" class="txt">Werdegang</a></li>
+            <li><a href="#projekte" class="txt">Projekte</a></li>
+        </ul>
+    </nav>
+</header>
+
+<footer>
+    <button id="oben"><a href="#home">Oben</a></button>
+</footer>
 
 
-    <section id="home">
-        <h1>Home</h1>
-    </section>
+<!-----------------------------Home----------------------------------------->
+<section id="home">
+    <img src="assets/img/Janis.png" alt="Janis">
+    <div class="vorstellen">
+        <h5>Hi, ich bin</h5>
+        <h1 id="name">Janis Pampoukidis.</h1>
+        <h5 id="SoftEnt">Software Entwickler</h5>
+        <button type="button" class="btn btn-outline-danger"><a href="#überMich" class="txt2">Über mich</a></button>
+    </div>
+</section>
 
-    <section id="überMich">
-        <h1>Über Mich</h1>
-    </section>
 
-    <section id="werdegang">
-        <h1>Werdegang</h1>
-    </section>
+<!-----------------------------Über mich----------------------------------------->
+<section id="überMich">
+    <h1>Über Mich</h1>
+    <hr>
+</section>
 
-    <section id="projekte">
-        <h1>Projekte</h1>
-    </section>
-</div>
+<!-----------------------------Skills----------------------------------------->
+<section id="skills">
+    <h1>Skills</h1>
+    <hr>
+
+    <div class="card2">
+        <div class="card-body">
+            <label>Angular</label>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">40%</div>
+            </div>
+
+            <label style="margin-top: 20px;">SAPUI5</label>
+            <div class="progress" style="margin-bottom: 40px;">
+                <div class="progress-bar" role="progressbar" style="width: 5;" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">5%</div>
+            </div>
+
+            <div class="tags">
+                <span class="badge badge-secondary">HTML</span>
+                <span class="badge badge-secondary">CSS</span>
+                <span class="badge badge-secondary">JavaScript</span>
+                <span class="badge badge-secondary">TypeScript</span>
+                <span class="badge badge-secondary">PHP</span>
+                <span class="badge badge-secondary">SQL</span>
+                <span class="badge badge-secondary">Java</span>
+                <span class="badge badge-secondary">ABAP</span>
+                <span class="badge badge-secondary">Angular</span>
+                <span class="badge badge-secondary">SAPUI5</span>
+                <span class="badge badge-secondary">Linux</span>
+                <span class="badge badge-secondary">Windows</span>
+                <span class="badge badge-secondary">Git</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-----------------------------Werdegang----------------------------------------->
+<section id="werdegang">
+    <h1>Werdegang</h1>
+    <hr>
+</section>
+
+<!-----------------------------Projekte----------------------------------------->
+<section id="projekte">
+    <h1>Projekte</h1>
+    <hr>
+</section>
