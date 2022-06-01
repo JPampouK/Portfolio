@@ -106,36 +106,18 @@ header nav ul li {
 
 //-----------------------Skills-------------------------------
 #skills {
-    h1 {
-        text-align: center;
-    }
+    text-align: center;
     background-color: rgb(48, 48, 48);
-    h1:hover+hr {
-        width: 7.5%;
-    }
-    .card2 {
-        background-color: rgb(63, 63, 63);
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        height: 80%;
-        max-width: 100%;
-        border-radius: 5px;
-    }
-    .badge {
-        font-size: 20px;
-        margin-right: 20px;
-        margin-bottom: 15px;
-    }
-    .progress-bar {
-        background-color: rgb(255, 119, 8);
-    }
-    .tags {
-        text-align: center;
-    }
-    label {
-        text-align: left;
-    }
+}
+
+.badge {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    background-color: rgb(255, 119, 8);
 }
 
 //-----------------------Werdegang-------------------------------
