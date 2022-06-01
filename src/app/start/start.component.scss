@@ -6,6 +6,7 @@
     position: fixed;
     bottom: 1.25rem;
     right: 1.25rem;
+    display: hide;
 }
 
 section {
@@ -99,7 +100,7 @@ header nav ul li {
             margin-bottom: 30px;
         }
     }
-    img {
+    #Janis {
         margin-top: 90px;
         margin-right: 150px;
         float: right;
@@ -107,12 +108,34 @@ header nav ul li {
         border: 10px;
         clip: rect(auto auto 130px auto);
     }
+    .socialMediaButton {
+        margin-left: 20px;
+        float: left;
+        margin-top: 240px;
+    }
+    .socialMediaButton tr td {
+        padding-bottom: 20px;
+    }
+    .socialMedia {
+        transition: all 0.2s ease;
+    }
+    .socialMedia:hover {
+        transform: scale(1.1);
+    }
 }
 
 //-----------------------Über mich-------------------------------
 #überMich {
     background-color: rgb(48, 48, 48);
     text-align: center;
+    .card3 {
+        margin-top: 50px;
+        background-color: rgb(86, 86, 86);
+        height: 400px;
+        width: 500px;
+        border-radius: 5px;
+        float: right;
+    }
 }
 
 //-----------------------Skills-------------------------------

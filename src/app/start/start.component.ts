@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 
 @Component({
@@ -10,7 +10,8 @@ export class StartComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
 
+  ngOnInit() {
   }
+
 }
