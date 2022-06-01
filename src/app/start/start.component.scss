@@ -57,6 +57,20 @@ header nav ul li {
     padding-right: 30px;
 }
 
+.card2 {
+    background-color: rgb(63, 63, 63);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.headerLine:hover+hr {
+    width: 7.5%;
+}
+
 //-----------------------Home-------------------------------
 #home {
     background-color: rgb(48, 48, 48);
@@ -99,9 +113,6 @@ header nav ul li {
 #überMich {
     background-color: rgb(48, 48, 48);
     text-align: center;
-    h1:hover+hr {
-        width: 7.5%;
-    }
 }
 
 //-----------------------Skills-------------------------------
@@ -124,16 +135,10 @@ header nav ul li {
 #werdegang {
     background-color: rgb(48, 48, 48);
     text-align: center;
-    h1:hover+hr {
-        width: 7.5%;
-    }
 }
 
 //-----------------------Projekte-------------------------------
 #projekte {
     background-color: rgb(48, 48, 48);
     text-align: center;
-    h1:hover+hr {
-        width: 7.5%;
-    }
 }
