@@ -136,6 +136,45 @@ header nav ul li {
         border-radius: 5px;
         float: right;
     }
+    .card-body {
+        text-align: left;
+    }
+    .rand {
+        margin-left: 25px;
+        margin-top: 25px;
+        height: 350px;
+        width: 450px;
+        border-color: rgb(255, 119, 8);
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 5px;
+    }
+    .kontakt {
+        margin-bottom: 20px;
+    }
+    .kontakt input {
+        margin-left: 25px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .kontakt textarea {
+        margin-left: 3px;
+        vertical-align: top;
+        height: 100px;
+        max-width: 200px;
+        max-height: 150px;
+        color: rgb(255, 119, 8);
+    }
+    .txt3 {
+        color: white;
+        text-decoration: none;
+    }
+    .btn-outline-danger {
+        border-color: rgb(255, 119, 8);
+    }
+    .btn-outline-danger:hover {
+        background-color: rgb(255, 119, 8);
+    }
 }
 
 //-----------------------Skills-------------------------------

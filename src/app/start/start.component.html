@@ -49,15 +49,18 @@
         <div class="card2 ">
             <div class="card-body ">
                 <div class="card3">
-                    <div class="card-body ">
-                        Du möchtest Kontakt?
-                        <form action="">
-                            <label>E-Mail:</label>
-                            <input style="color: rgb(255, 119, 8);" />
-                            <br>
-                            <label>Nachricht</label>
-                            <textarea style="max-width: 200px; max-height: 300px; color: rgb(255, 119, 8);" cols="30" rows="10"></textarea>
-                        </form>
+                    <div class="rand">
+                        <div class="card-body">
+                            <h4 style="text-align: center;">Du möchtest Kontakt?</h4>
+                            <form class="kontakt" userPost="ngForm">
+                                <label>E-Mail:</label>
+                                <input id="input" type="email" required style="color: rgb(255, 119, 8);" />
+                                <br>
+                                <label>Nachricht:</label>
+                                <textarea id="textarea" cols="30" rows="10" required></textarea>
+                            </form>
+                            <button type="button" class="btn btn-outline-danger"><a class="txt3" [href]="emailString" (click)="sendMail()">Email schicken</a></button>
+                        </div>
                     </div>
                 </div>
                 <p style="text-align: left; margin: 0;">Ich bin Janis Pampoukidis, 18 Jahre alt und mache aktuell <br> eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung <br>bei der LEW Verteilnetz GmbH in Augsburg.</p>
