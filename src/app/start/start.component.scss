@@ -28,13 +28,13 @@ hr {
     color: white;
 }
 
-li {
+.line {
     margin-top: 10px;
     list-style-type: none;
     transition: all 0.3s ease;
 }
 
-li:hover {
+.line:hover {
     transform: translateY(5px);
 }
 
@@ -183,6 +183,13 @@ header nav ul li {
     background-color: rgb(48, 48, 48);
 }
 
+#box2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
 .badge {
     font-size: 20px;
     margin-right: 20px;
@@ -197,6 +204,28 @@ header nav ul li {
 #werdegang {
     background-color: rgb(48, 48, 48);
     text-align: center;
+    .timeline1 {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    .timestamp1 {
+        margin-bottom: 20px;
+        padding: 0px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 100;
+    }
+    .status1 {
+        padding: 0px 40px;
+        display: flex;
+        justify-content: center;
+        border-top: 2px solid rgb(255, 119, 8);
+        position: relative;
+    }
 }
 
 //-----------------------Projekte-------------------------------
