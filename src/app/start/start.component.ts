@@ -16,6 +16,17 @@ export class StartComponent implements OnInit {
 
   ngOnInit() {
   }
+  myFunction() {
+
+
+    
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
 
   sendMail() {
     let mail = (<HTMLInputElement>document.getElementById("input"));
