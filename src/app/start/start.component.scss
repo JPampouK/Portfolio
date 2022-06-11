@@ -301,7 +301,7 @@ header nav ul li {
 }
 
 //Ansicht fürs Handy
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1118px) {
     #weit {
         display: none;
     }
@@ -380,45 +380,17 @@ header nav ul li {
     #home {
         background-color: rgb(48, 48, 48);
         .vorstellen {
+            text-align: center;
+            padding-left: 0px;
             font-family: 'Inconsolata', monospace;
             #name {
-                color: rgb(255, 119, 8);
-                bottom: 350px;
-                font-size: 30px;
-            }
-            h1 {
-                font-size: 50px;
-            }
-            .txt2 {
-                color: white;
-                text-decoration: none;
-            }
-            .btn-outline-danger {
-                border-color: rgb(255, 119, 8);
-            }
-            .btn-outline-danger:hover {
-                background-color: rgb(255, 119, 8);
-            }
-            #SoftEnt {
-                margin-bottom: 30px;
+                font-size: 40px;
             }
         }
         #Janis {
-            width: 50%;
-        }
-        .socialMediaButton {
-            margin-left: 20px;
-            float: left;
-            margin-top: 240px;
-        }
-        .socialMediaButton tr td {
-            padding-bottom: 20px;
-        }
-        .socialMedia {
-            transition: all 0.2s ease;
-        }
-        .socialMedia:hover {
-            transform: scale(1.1);
+            margin-left: 2000px;
+            width: 200px;
+            margin-bottom: 50px;
         }
     }
     //-----------------------Über mich-------------------------------
