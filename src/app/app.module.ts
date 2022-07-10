@@ -16,6 +16,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { WerdegangComponent } from './werdegang/werdegang.component';
 import { PorjekteComponent } from './porjekte/porjekte.component';
 import { FooterComponent } from './footer/footer.component';
+import { SendMailService } from './send-mail.service';
 
 
 @NgModule({
@@ -40,7 +41,7 @@ import { FooterComponent } from './footer/footer.component';
     MatChipsModule,
     MatProgressSpinnerModule
   ],
-  providers: [],
+  providers: [SendMailService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

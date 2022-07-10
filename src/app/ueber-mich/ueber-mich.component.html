@@ -15,7 +15,7 @@
                             <label>Nachricht:</label>
                             <textarea id="textarea" cols="30" rows="10" required></textarea>
                         </form>
-                        <button type="button" class="btn btn-outline-danger"><a class="txt3" [href]="emailString" (click)="sendMail()">Email schicken</a></button>
+                        <button type="button" class="btn btn-outline-danger"><a class="txt3" [href]="_sendMail.emailString" (click)="_sendMail.sendMail()">Email schicken</a></button>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@
         </div>
         <div class="card-body" id="eng">
             <p style="text-align: left; font-size: 27px;">Ich bin Janis Pampoukidis, 18 Jahre alt und mache aktuell eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung bei der LEW Verteilnetz GmbH in Augsburg.</p>
-            <button type="button" id="sendMailButton" class="btn btn-outline-danger"><a [href]="emailString" (click)="sendMail()"><img src="assets/img/Mail.png" alt=""></a></button>
+            <button type="button" id="sendMailButton" class="btn btn-outline-danger"><a [href]="_sendMail.emailString" (click)="_sendMail.sendMail()"><img src="assets/img/Mail.png" alt=""></a></button>
         </div>
     </div>
 </section>
