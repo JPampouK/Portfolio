@@ -1,0 +1,83 @@
+//-----------------------Home-------------------------------
+#home {
+    background-color: rgb(48, 48, 48);
+    #name {
+        color: rgb(255, 119, 8);
+        bottom: 400px;
+    }
+    .vorstellen {
+        margin-top: 200px;
+        padding-left: 200px;
+        font-family: 'Inconsolata', monospace;
+        h1 {
+            font-size: 50px;
+        }
+        .txt2 {
+            color: white;
+            text-decoration: none;
+        }
+        .btn-outline-danger {
+            border-color: rgb(255, 119, 8);
+        }
+        .btn-outline-danger:hover {
+            background-color: rgb(255, 119, 8);
+        }
+        #SoftEnt {
+            margin-bottom: 30px;
+        }
+    }
+    #Janis {
+        border-radius: 8px;
+        margin-top: 90px;
+        margin-right: 150px;
+        float: right;
+        width: 300px;
+        border: 10px;
+        clip: rect(auto auto 130px auto);
+    }
+    .socialMediaButton {
+        margin-left: 20px;
+        float: left;
+        margin-top: 240px;
+    }
+    .socialMediaButton tr td {
+        padding-bottom: 20px;
+    }
+    .socialMedia {
+        transition: all 0.2s ease;
+    }
+    .socialMedia:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media only screen and (max-width: 1118px) {
+    #home {
+        background-color: rgb(48, 48, 48);
+        .vorstellen {
+            margin-top: 30px;
+            text-align: center;
+            padding-left: 0px;
+            font-family: 'Inconsolata', monospace;
+            #name {
+                font-size: 40px;
+            }
+            ul {
+                margin-top: 90px;
+            }
+            ul li {
+                display: inline;
+                list-style: none;
+                margin-right: 10px;
+            }
+        }
+        #Janis {
+            margin-top: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            float: none;
+        }
+    }
+}

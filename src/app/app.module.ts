@@ -8,12 +8,28 @@ import {MatCardModule} from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { ImpressumComponent } from './impressum/impressum.component';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+import { UeberMichComponent } from './ueber-mich/ueber-mich.component';
+import { SkillsComponent } from './skills/skills.component';
+import { WerdegangComponent } from './werdegang/werdegang.component';
+import { PorjekteComponent } from './porjekte/porjekte.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    StartComponent
+    StartComponent,
+    ImpressumComponent,
+    HeaderComponent,
+    HomeComponent,
+    UeberMichComponent,
+    SkillsComponent,
+    WerdegangComponent,
+    PorjekteComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

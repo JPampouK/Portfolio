@@ -1,327 +1,20 @@
-#body {
-    background-color: rgb(48, 48, 48);
-}
-
-#eng {
-    display: none;
-}
-
-#oben {
-    position: fixed;
-    bottom: 1.25rem;
-    right: 1.25rem;
-}
-
-section {
-    padding-top: 70px;
-    min-height: 100%;
-    height: 740px;
-}
-
-hr {
-    background-color: rgb(255, 119, 8);
-    width: 6%;
-    margin: auto;
-    height: 2px;
-    transition: all 0.5s ease;
-}
-
-.txt {
-    text-decoration: none;
-    color: white;
-}
-
-.line {
-    margin-top: 10px;
-    list-style-type: none;
-    transition: all 0.3s ease;
-}
-
-.line:hover {
-    transform: translateY(5px);
-}
-
-header {
-    width: 100%;
-    height: 65px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgb(11, 11, 11);
-    box-shadow: 0 1px 3px black;
-    z-index: 2;
-}
-
-.name {
-    margin-top: 17px;
-    margin-left: 10px;
-}
-
-.name,
-a {
-    text-decoration: none;
-    color: white;
-}
-
-header nav {
-    float: right;
-    margin: 10px 50px 0 0;
-}
-
-header nav ul li {
-    float: left;
-    padding-right: 30px;
-}
-
-.card2 {
-    background-color: rgb(63, 63, 63);
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 80%;
-    max-width: 1500px;
-    border-radius: 5px;
-}
-
-.headerLine:hover+hr {
-    width: 7.5%;
-}
-
-//-----------------------Home-------------------------------
-#home {
-    background-color: rgb(48, 48, 48);
-    #name {
-        color: rgb(255, 119, 8);
-        bottom: 400px;
-    }
-    .vorstellen {
-        padding-top: 200px;
-        padding-left: 200px;
-        font-family: 'Inconsolata', monospace;
-        h1 {
-            font-size: 50px;
-        }
-        .txt2 {
-            color: white;
-            text-decoration: none;
-        }
-        .btn-outline-danger {
-            border-color: rgb(255, 119, 8);
-        }
-        .btn-outline-danger:hover {
-            background-color: rgb(255, 119, 8);
-        }
-        #SoftEnt {
-            margin-bottom: 30px;
-        }
-    }
-    #Janis {
-        margin-top: 90px;
-        margin-right: 150px;
-        float: right;
-        width: 300px;
-        border: 10px;
-        clip: rect(auto auto 130px auto);
-    }
-    .socialMediaButton {
-        margin-left: 20px;
-        float: left;
-        margin-top: 240px;
-    }
-    .socialMediaButton tr td {
-        padding-bottom: 20px;
-    }
-    .socialMedia {
-        transition: all 0.2s ease;
-    }
-    .socialMedia:hover {
-        transform: scale(1.1);
-    }
-}
-
-//-----------------------Über mich-------------------------------
-#überMich {
-    background-color: rgb(48, 48, 48);
-    text-align: center;
-    .card3 {
-        margin-top: 50px;
-        background-color: rgb(86, 86, 86);
-        height: 400px;
-        width: 500px;
-        border-radius: 5px;
-        float: right;
-    }
-    .card-body {
-        text-align: left;
-    }
-    .rand {
-        margin-left: 25px;
-        margin-top: 25px;
-        height: 350px;
-        width: 450px;
-        border-color: rgb(255, 119, 8);
-        border-width: 3px;
-        border-style: solid;
-        border-radius: 5px;
-    }
-    .kontakt {
-        margin-bottom: 20px;
-    }
-    .kontakt input {
-        margin-left: 25px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-    .kontakt textarea {
-        margin-left: 3px;
-        vertical-align: top;
-        height: 100px;
-        max-width: 200px;
-        max-height: 150px;
-        color: rgb(255, 119, 8);
-    }
-    .txt3 {
-        color: white;
-        text-decoration: none;
-    }
-    .btn-outline-danger {
-        border-color: rgb(255, 119, 8);
-    }
-    .btn-outline-danger:hover {
-        background-color: rgb(255, 119, 8);
-    }
-}
-
-//-----------------------Skills-------------------------------
-#skills {
-    text-align: center;
-    background-color: rgb(48, 48, 48);
-}
-
-#box2 {
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 100px;
-}
-
-.badge {
-    font-size: 20px;
-    margin-right: 20px;
-    margin-bottom: 15px;
-}
-
-.progress-bar {
-    background-color: rgb(255, 119, 8);
-}
-
-//-----------------------Werdegang-------------------------------
-#werdegang {
-    background-color: rgb(48, 48, 48);
-    text-align: center;
-    .timeline-steps {
-        margin-top: 100px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        z-index: 1;
-    }
-    .timeline-steps .timeline-step {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        margin: 1rem;
-        z-index: 1;
-    }
-    @media (min-width:768px) {
-        .timeline-steps {
-            margin-top: 150px;
-        }
-        .timeline-steps .timeline-step:not(:last-child):after {
-            content: "";
-            display: block;
-            border-top: .25rem dotted rgb(255, 119, 8);
-            width: 3.46rem;
-            position: absolute;
-            left: 7.5rem;
-            top: .3125rem
-        }
-        .timeline-steps .timeline-step:not(:first-child):before {
-            content: "";
-            display: block;
-            border-top: .25rem dotted rgb(255, 119, 8);
-            width: 3.8125rem;
-            position: absolute;
-            right: 7.5rem;
-            top: .3125rem
-        }
-    }
-    .timeline-steps .timeline-content {
-        width: 10rem;
-        text-align: center
-    }
-    .timeline-steps .timeline-content .inner-circle {
-        border-radius: 1.5rem;
-        height: 1rem;
-        width: 1rem;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(255, 119, 8);
-    }
-    .timeline-steps .timeline-content .inner-circle:before {
-        content: "";
-        background-color: rgb(255, 119, 8);
-        display: inline-block;
-        height: 3rem;
-        width: 3rem;
-        min-width: 3rem;
-        border-radius: 6.25rem;
-        opacity: .5
-    }
-}
-
-//-----------------------Projekte-------------------------------
-#projekte {
-    background-color: rgb(48, 48, 48);
-    text-align: center;
-    .card4 {
-        margin-top: 20px;
-        background-color: rgb(86, 86, 86);
-        height: 450px;
-        width: 500px;
-        border-radius: 5px;
-    }
-    .projektCards,
-    tr,
-    td {
-        padding-right: 30px;
-    }
-}
-
-//Ansicht fürs Handy
-@media only screen and (max-width: 1118px) {
-    #weit {
+    #eng {
         display: none;
     }
-    #eng {
-        display: block;
-    }
-    #scroll {
-        background-color: rgb(48, 48, 48);
-    }
+    
     #oben {
+        display: none;
         position: fixed;
         bottom: 1.25rem;
         right: 1.25rem;
-        display: hide;
     }
+    
     section {
-        padding-top: 95px;
+        padding-top: 70px;
         min-height: 100%;
-        height: 896px;
+        height: 740px;
     }
+    
     hr {
         background-color: rgb(255, 119, 8);
         width: 6%;
@@ -329,77 +22,250 @@ header nav ul li {
         height: 2px;
         transition: all 0.5s ease;
     }
-    /* Style the navigation menu */
-    .topnav {
-        overflow: hidden;
-        background-color: black;
+    
+    .headerLine:hover+hr {
+        width: 8%;
     }
-    /* Hide the links inside the navigation menu (except for logo/home) */
-    .topnav #myLinks {
-        display: none;
-    }
-    /* Style navigation menu links */
-    .topnav a {
-        color: white;
-        padding: 14px 16px;
+    
+    .txt {
         text-decoration: none;
-        font-size: 17px;
-        display: block;
+        color: white;
     }
-    /* Style the hamburger menu */
-    .topnav a.icon {
-        background: black;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
+    
+    .line {
+        margin-top: 10px;
+        list-style-type: none;
+        transition: all 0.3s ease;
     }
-    /* Add a grey background color on mouse-over */
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
+    
+    .line:hover {
+        transform: translateY(5px);
     }
-    .name {
-        visibility: hidden;
-        margin-top: 17px;
-        margin-left: 10px;
-    }
+    
     .card2 {
         background-color: rgb(63, 63, 63);
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
         height: 80%;
-        max-width: 100%;
+        max-width: 1500px;
         border-radius: 5px;
     }
-    .headerLine:hover+hr {
-        width: 7.5%;
-    }
-    //-----------------------Home-------------------------------
-    #home {
-        background-color: rgb(48, 48, 48);
-        .vorstellen {
-            text-align: center;
-            padding-left: 0px;
-            font-family: 'Inconsolata', monospace;
-            #name {
-                font-size: 40px;
-            }
-        }
-        #Janis {
-            margin-left: 2000px;
-            width: 200px;
-            margin-bottom: 50px;
-        }
-    }
-    //-----------------------Über mich-------------------------------
-    #überMich {
+    
+    //-----------------------Werdegang-------------------------------
+    #werdegang {
         background-color: rgb(48, 48, 48);
         text-align: center;
-        #sendMailButton {
-            margin-left: 120px;
+        .timeline-steps {
             margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            z-index: 1;
+        }
+        .timeline-steps .timeline-step {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            margin: 1rem;
+            z-index: 1;
+        }
+        @media (min-width:990px) {
+            .timeline-steps {
+                margin-top: 150px;
+            }
+            .timeline-steps .timeline-step:not(:last-child):after {
+                content: "";
+                display: block;
+                border-top: .25rem dotted rgb(255, 119, 8);
+                width: 3.46rem;
+                position: absolute;
+                left: 7.5rem;
+                top: .3125rem
+            }
+            .timeline-steps .timeline-step:not(:first-child):before {
+                content: "";
+                display: block;
+                border-top: .25rem dotted rgb(255, 119, 8);
+                width: 3.8125rem;
+                position: absolute;
+                right: 7.5rem;
+                top: .3125rem
+            }
+        }
+        .timeline-steps .timeline-content {
+            width: 10rem;
+            text-align: center
+        }
+        .timeline-steps .timeline-content .inner-circle {
+            border-radius: 1.5rem;
+            height: 1rem;
+            width: 1rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(255, 119, 8);
+        }
+        .timeline-steps .timeline-content .inner-circle:before {
+            content: "";
+            background-color: rgb(255, 119, 8);
+            display: inline-block;
+            height: 3rem;
+            width: 3rem;
+            min-width: 3rem;
+            border-radius: 6.25rem;
+            opacity: .5
         }
     }
-}
+    
+    //-----------------------Footer-------------------------------
+    footer {
+        width: 100%;
+        height: 220px;
+        background-color: black;
+        text-align: center;
+        .txt3 {
+            text-decoration: none;
+            color: white;
+        }
+        .btn-outline-danger {
+            margin-top: 30px;
+        }
+        .socialMedia:hover {
+            transform: scale(1.1);
+        }
+        ul {
+            margin-top: 30px;
+        }
+        ul li {
+            display: inline;
+        }
+        #impressum {
+            text-decoration: none;
+            color: rgb(98, 98, 98);
+            transition: 0.25s;
+        }
+        #impressum:hover {
+            color: rgb(124, 124, 124);
+        }
+    }
+    
+    //Ansicht fürs Handy
+    @media only screen and (max-width: 1118px) {
+        #weit {
+            display: none;
+        }
+        #eng {
+            display: block;
+        }
+        #scroll {
+            background-color: rgb(48, 48, 48);
+        }
+        #oben {
+            position: fixed;
+            bottom: 1.25rem;
+            right: 1.25rem;
+            display: hide;
+        }
+        section {
+            padding-top: 95px;
+            min-height: 100%;
+            height: 896px;
+        }
+        hr {
+            background-color: rgb(255, 119, 8);
+            width: 6%;
+            margin: auto;
+            height: 2px;
+            transition: all 0.5s ease;
+        }
+        /* Style the navigation menu */
+        .topnav {
+            overflow: hidden;
+            background-color: black;
+        }
+        /* Hide the links inside the navigation menu (except for logo/home) */
+        .topnav #myLinks {
+            display: none;
+        }
+        /* Style navigation menu links */
+        .topnav a {
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: block;
+        }
+        /* Style the hamburger menu */
+        .topnav a.icon {
+            background: black;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        /* Add a grey background color on mouse-over */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .name {
+            visibility: hidden;
+            margin-top: 17px;
+            margin-left: 10px;
+        }
+        .card2 {
+            background-color: rgb(63, 63, 63);
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            height: 80%;
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .headerLine:hover+hr {
+            width: 7.5%;
+        }
+        //-----------------------Home-------------------------------
+        #home {
+            background-color: rgb(48, 48, 48);
+            .vorstellen {
+                margin-top: 30px;
+                text-align: center;
+                padding-left: 0px;
+                font-family: 'Inconsolata', monospace;
+                #name {
+                    font-size: 40px;
+                }
+                ul {
+                    margin-top: 90px;
+                }
+                ul li {
+                    display: inline;
+                    list-style: none;
+                    margin-right: 10px;
+                }
+            }
+            #Janis {
+                margin-top: 30px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 200px;
+                float: none;
+            }
+        }
+        //-----------------------Über mich-------------------------------
+        #überMich {
+            background-color: rgb(48, 48, 48);
+            text-align: center;
+            #sendMailButton {
+                // margin-left: 120px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 100px;
+            }
+        }
+    }

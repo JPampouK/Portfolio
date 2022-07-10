@@ -1,0 +1,29 @@
+<section id="überMich">
+    <h1 class="headerLine">Über Mich</h1>
+    <hr>
+
+    <div class="card2">
+        <div class="card-body" id="weit">
+            <div class="card3">
+                <div class="rand">
+                    <div class="card-body">
+                        <h4 style="text-align: center;">Du möchtest Kontakt?</h4>
+                        <form class="kontakt" userPost="ngForm">
+                            <label>E-Mail:</label>
+                            <input id="input" type="email" required style="color: rgb(255, 119, 8);" />
+                            <br>
+                            <label>Nachricht:</label>
+                            <textarea id="textarea" cols="30" rows="10" required></textarea>
+                        </form>
+                        <button type="button" class="btn btn-outline-danger"><a class="txt3" [href]="emailString" (click)="sendMail()">Email schicken</a></button>
+                    </div>
+                </div>
+            </div>
+            <p style="text-align: left; margin-top: 200px;">Ich bin Janis Pampoukidis, 18 Jahre alt und mache aktuell <br> eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung <br>bei der LEW Verteilnetz GmbH in Augsburg.</p>
+        </div>
+        <div class="card-body" id="eng">
+            <p style="text-align: left; font-size: 27px;">Ich bin Janis Pampoukidis, 18 Jahre alt und mache aktuell eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung bei der LEW Verteilnetz GmbH in Augsburg.</p>
+            <button type="button" id="sendMailButton" class="btn btn-outline-danger"><a [href]="emailString" (click)="sendMail()"><img src="assets/img/Mail.png" alt=""></a></button>
+        </div>
+    </div>
+</section>

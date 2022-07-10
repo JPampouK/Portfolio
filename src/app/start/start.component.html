@@ -1,194 +1,22 @@
-<!-----------------------------Header----------------------------------------->
 <div #scroll>
-    <header>
-        <nav>
-            <ul id="weit">
-                <li class="line"><a href="#home" class="txt">Home</a></li>
-                <li class="line"><a href="#überMich" class="txt">Über mich</a></li>
-                <li class="line"><a href="#skills" class="txt">Skills</a></li>
-                <li class="line"><a href="#werdegang" class="txt">Werdegang</a></li>
-                <li class="line"><a href="#projekte" class="txt">Projekte</a></li>
-            </ul>
-        </nav>
-
-        <!--Header nur für Handy-->
-        <div id="eng">
-            <!-- Top Navigation Menu -->
-            <div class="topnav">
-                <a href="#home" class="active">Home</a>
-                <!-- Navigation links (hidden by default) -->
-                <div id="myLinks">
-                    <a href="#überMich">Über mich</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#werdegang">Werdegang</a>
-                    <a href="#projekte">Projekte</a>
-                </div>
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                <a class="icon" (click)="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-        </div>
-
-        <h4 class="name"><a href="#home">Janis Pampoukidis</a></h4>
-    </header>
-
-    <footer>
-        <a data-toggle="tooltip" title="Zurück nach oben" href="#home" id="oben"><img src="assets/img/Pfeil.png" alt="Nach oben" width="50px"></a>
-    </footer>
-
+    <!-----------------------------Header----------------------------------------->
+    <app-header></app-header>
 
     <!-----------------------------Home----------------------------------------->
-    <section id="home">
-        <img src="assets/img/Janis.png" alt="Janis" id="Janis">
-
-        <div id="weit">
-            <table class="socialMediaButton">
-                <tr>
-                    <td>
-                        <a href="https://www.instagram.com/jpampou/" target="_blank"><img src="assets/img/Instagram.png" alt="Instagram" width="30px" class="socialMedia"></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="https://www.linkedin.com/in/janis-p-272187225/" target="_blank"><img src="assets/img/LinkedIn.png" alt="LinkedIn" width="30px" class="socialMedia"></a>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="vorstellen">
-            <h5 id="hi">Hi, ich bin</h5>
-            <h1 id="name">Janis Pampoukidis</h1>
-            <h5 id="SoftEnt">Software Entwickler</h5>
-            <button type="button" class="btn btn-outline-danger"><a href="#überMich" class="txt2">Über mich</a></button>
-            <div id="eng">
-                <table class="socialMediaButton">
-                    <tr>
-                        <td>
-                            <a href="https://www.instagram.com/jpampou/" target="_blank"><img src="assets/img/Instagram.png" alt="Instagram" width="30px" class="socialMedia"></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="https://www.linkedin.com/in/janis-p-272187225/" target="_blank"><img src="assets/img/LinkedIn.png" alt="LinkedIn" width="30px" class="socialMedia"></a>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </section>
-
+    <app-home></app-home>
 
     <!-----------------------------Über mich----------------------------------------->
-    <section id="überMich">
-        <h1 class="headerLine">Über Mich</h1>
-        <hr>
-
-        <div class="card2">
-            <div class="card-body" id="weit">
-                <div class="card3">
-                    <div class="rand">
-                        <div class="card-body">
-                            <h4 style="text-align: center;">Du möchtest Kontakt?</h4>
-                            <form class="kontakt" userPost="ngForm">
-                                <label>E-Mail:</label>
-                                <input id="input" type="email" required style="color: rgb(255, 119, 8);" />
-                                <br>
-                                <label>Nachricht:</label>
-                                <textarea id="textarea" cols="30" rows="10" required></textarea>
-                            </form>
-                            <button type="button" class="btn btn-outline-danger"><a class="txt3" [href]="emailString" (click)="sendMail()">Email schicken</a></button>
-                        </div>
-                    </div>
-                </div>
-                <p style="text-align: left; margin-top: 200px;">Ich bin Janis Pampoukidis, 18 Jahre alt und mache aktuell <br> eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung <br>bei der LEW Verteilnetz GmbH in Augsburg.</p>
-            </div>
-            <div class="card-body" id="eng">
-                <p style="text-align: left; font-size: 27px;">Ich bin Janis Pampoukidis, 18 Jahre alt und mache aktuell eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung bei der LEW Verteilnetz GmbH in Augsburg.</p>
-                <button type="button" id="sendMailButton" class="btn btn-outline-danger"><a [href]="emailString" (click)="sendMail()"><img src="assets/img/Mail.png" alt=""></a></button>
-            </div>
-        </div>
-    </section>
+    <app-ueber-mich></app-ueber-mich>
 
     <!-----------------------------Skills----------------------------------------->
-    <section id="skills">
-        <h1 class="headerLine">Skills</h1>
-        <hr>
-        <div class="card2">
-            <div class="card-body ">
-                <img src="assets/img/Angular.png " alt="Angular " width="80px " style="margin-bottom: 10px; ">
-                <div class="progress ">
-                    <div class="progress-bar " role="progressbar " style="width: 40%; " aria-valuenow="2 " aria-valuemin="0 " aria-valuemax="100 ">40%</div>
-                </div>
-
-                <img src="assets/img/SAPUI5.png " alt="SAPUI5 " width="80px " style="margin-top: 20px; margin-bottom: 10px; ">
-                <div class=" progress " style="margin-bottom: 130px; ">
-                    <div class="progress-bar " role="progressbar " style="width: 5; " aria-valuenow="2 " aria-valuemin="0 " aria-valuemax="100 ">5%</div>
-                </div>
-
-                <div class="tags ">
-                    <span class="badge badge-secondary ">HTML</span>
-                    <span class="badge badge-secondary ">CSS</span>
-                    <span class="badge badge-secondary ">JavaScript</span>
-                    <span class="badge badge-secondary ">TypeScript</span>
-                    <span class="badge badge-secondary ">PHP</span>
-                    <span class="badge badge-secondary ">SQL</span>
-                    <span class="badge badge-secondary ">Java</span>
-                    <span class="badge badge-secondary ">ABAP</span>
-                    <span class="badge badge-secondary ">Angular</span>
-                    <span class="badge badge-secondary ">SAPUI5</span>
-                    <span class="badge badge-secondary ">Linux</span>
-                    <span class="badge badge-secondary ">Windows</span>
-                    <span class="badge badge-secondary ">Raspberry Pi</span>
-                    <span class="badge badge-secondary ">Git</span>
-                </div>
-            </div>
-        </div>
-    </section>
+    <app-skills></app-skills>
 
     <!-----------------------------Werdegang----------------------------------------->
-    <section id="werdegang">
-        <h1 class="headerLine">Werdegang</h1>
-        <hr>
-        <div class="card2">
-            <div class="card-body">
-                <div class="timeline-steps aos-init aos-animate">
-                    <div class="timeline-step">
-                        <div class="timeline-content" data-original-title="2003">
-                            <div class="inner-circle"></div>
-                            <p class="h6 mt-3 mb-1">2010 - 2014</p>
-                            <p class="h6 text-muted mb-0 mb-lg-0">Grundschule Hammerschmiede</p>
-                        </div>
-                    </div>
-                    <div class="timeline-step">
-                        <div class="timeline-content" data-original-title="2003">
-                            <div class="inner-circle"></div>
-                            <p class="h6 mt-3 mb-1">2014 - 2020</p>
-                            <p class="h6 text-muted mb-0 mb-lg-0">Maria-Ward-Realschule Augsburg</p>
-                        </div>
-                    </div>
-                    <div class="timeline-step mb-0">
-                        <div class="timeline-content" data-original-title="2020">
-                            <div class="inner-circle"></div>
-                            <p class="h6 mt-3 mb-1">2020 - 2023</p>
-                            <p class="h6 text-muted mb-0 mb-lg-0">Ausbildung zum Fachinformatiker für Anwendungsentwicklung</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <app-werdegang></app-werdegang>
 
-    <!-----------------------------Projekte----------------------------------------->
-    <section id="projekte">
-        <h1 class="headerLine">Projekte</h1>
-        <hr>
+    <!-- ---------------------------Projekte--------------------------------------- -->
+    <app-porjekte></app-porjekte>
 
-        <div class="card2">
-            <div class="card-body">
-                <h2>Comming Soon...</h2>
-
-            </div>
-        </div>
-    </section>
+    <!-- ---------------------------Footer--------------------------------------- -->
+    <app-footer></app-footer>
 </div>
