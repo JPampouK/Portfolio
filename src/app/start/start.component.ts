@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-start',
@@ -9,7 +9,6 @@ export class StartComponent implements OnInit {
 
   constructor() { }
 
-  emailString: string = " ";
   fehler: boolean = false;
   test: boolean = false;
 
@@ -17,20 +16,6 @@ export class StartComponent implements OnInit {
   ngOnInit() {
   }
   
-  // Scroll Button Functions
-  @HostListener('window:scroll', ['$event']) onScrollEvent($event){
-    this.scrollFunction();
-  } 
-  
-  scrollFunction() {
-          var mybutton = document.getElementById("oben");
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-          }
-
   myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
@@ -38,15 +23,6 @@ export class StartComponent implements OnInit {
     } else {
       x.style.display = "block";
     }
-  }
-
-  sendMail() {
-    let mail = (<HTMLInputElement>document.getElementById("input"));
-    let text = (<HTMLInputElement>document.getElementById("textarea"));
-
-    this.emailString = "mailto:janis@pampoukidis.de?Subject=Nachricht von " + mail.value + " &body=" + text.value;
-    text.value = "";
-    mail.value = "";
   }
 
 }
