@@ -17,7 +17,7 @@ import { WerdegangComponent } from './werdegang/werdegang.component';
 import { PorjekteComponent } from './porjekte/porjekte.component';
 import { FooterComponent } from './footer/footer.component';
 import { SendMailService } from './send-mail.service';
-
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -41,7 +41,7 @@ import { SendMailService } from './send-mail.service';
     MatChipsModule,
     MatProgressSpinnerModule
   ],
-  providers: [SendMailService],
+  providers: [SendMailService, {provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
