@@ -12,18 +12,18 @@ export class FooterComponent implements OnInit {
 
   ngOnInit() {
   }
-  
-   // Scroll Button Functions
-   @HostListener('window:scroll', ['$event']) onScrollEvent($event){
+
+  // Scroll Button Functions
+  @HostListener('window:scroll', ['$event']) onScrollEvent($event) {
     this.scrollFunction();
-  } 
-  
+  }
+
   scrollFunction() {
-          var mybutton = document.getElementById("oben");
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-          }
+    var backToTopBtn = document.getElementById("oben");
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+      backToTopBtn.style.display = "block";
+    } else {
+      backToTopBtn.style.display = "none";
+    }
+  }
 }
