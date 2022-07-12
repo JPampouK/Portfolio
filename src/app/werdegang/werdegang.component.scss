@@ -1,8 +1,12 @@
 #werdegang {
+    .card2 {
+        height: auto;
+        min-height: 80%;
+    }
     background-color: rgb(48, 48, 48);
     text-align: center;
     .timeline-steps {
-        margin-top: 100px;
+        margin-top: 10px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
