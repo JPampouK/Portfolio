@@ -1,3 +1,3 @@
 # Portfolio
 
-Persönliches Portfolio: http://pampoukidis.duckdns.org:8081/Janis
+Persönliches Portfolio: http://janispampoukidis.duckdns.org
