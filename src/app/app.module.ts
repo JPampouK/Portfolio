@@ -14,7 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { UeberMichComponent } from './ueber-mich/ueber-mich.component';
 import { SkillsComponent } from './skills/skills.component';
 import { WerdegangComponent } from './werdegang/werdegang.component';
-import { PorjekteComponent } from './porjekte/porjekte.component';
+import { ProjekteComponent } from './projekte/projekte.component';
 import { FooterComponent } from './footer/footer.component';
 import { SendMailService } from './send-mail.service';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
@@ -29,7 +29,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     UeberMichComponent,
     SkillsComponent,
     WerdegangComponent,
-    PorjekteComponent,
+    ProjekteComponent,
     FooterComponent
   ],
   imports: [
