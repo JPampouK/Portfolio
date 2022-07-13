@@ -49,6 +49,17 @@
     .btn-outline-danger:hover {
         background-color: rgb(255, 119, 8);
     }
+    .programIcon {
+        width: 100px;
+        margin-right: 70px;
+        margin-top: 80px;
+        filter: invert(99%) sepia(92%) saturate(51%) hue-rotate(225deg) brightness(115%) contrast(100%);
+        transition: 0.75s;
+    }
+    .programIcon:hover {
+        transform: scale(1.2);
+        filter: invert(61%) sepia(58%) saturate(4778%) hue-rotate(355deg) brightness(101%) contrast(104%);
+    }
 }
 
 @media only screen and (max-width: 1118px) {
