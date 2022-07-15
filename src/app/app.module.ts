@@ -17,6 +17,14 @@ import { ProjekteComponent } from './projekte/projekte.component';
 import { FooterComponent } from './footer/footer.component';
 import { SendMailService } from './send-mail.service';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { HttpClient } from '@angular/common/http';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { HttpClientModule } from '@angular/common/http';
+
+export function rootLoaderFactory(http: HttpClient){
+  return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -37,7 +45,15 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     MatButtonModule,
     BrowserAnimationsModule,
     MatChipsModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader:{
+        provide: TranslateLoader,
+        useFactory: rootLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [SendMailService, {provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]

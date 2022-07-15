@@ -7,9 +7,7 @@
         "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
-        "e2e": "ng e2e",
-        "i18n:init": "ngx-translate-extract --input ./src --output ./src/assets/i18n/template.json --key-as-default-value --replace --format json",
-        "i18n:extract": "ngx-translate-extract --input ./src --output ./src/assets/i18n/{en,da,de,fi,nb,nl,sv}.json --clean --format json"
+        "e2e": "ng e2e"
     },
     "private": true,
     "dependencies": {
@@ -23,7 +21,8 @@
         "@angular/platform-browser": "~8.2.14",
         "@angular/platform-browser-dynamic": "~8.2.14",
         "@angular/router": "~8.2.14",
-        "@ngx-translate/core": "^14.0.0",
+        "@ngx-translate/core": "^12.1.2",
+        "@ngx-translate/http-loader": "^7.0.0",
         "aos": "^3.0.0-beta.6",
         "emailjs": "^4.0.0",
         "hammerjs": "^2.0.8",

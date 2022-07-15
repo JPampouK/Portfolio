@@ -1,6 +1,50 @@
 {
-    "willkommen": {
-        "hallo": "Hi, ich bin",
-        "name": "Janis Pampoukidis"
+    "header": {
+        "überMich": "Über mich",
+        "werdegang": "Werdegang",
+        "projekte": "Projekte"
+    },
+
+    "home": {
+        "hi": "Hi, ich bin",
+        "beruf": "Fachinformatiker für Anwendungsentwicklung",
+        "überMich": "Über mich"
+    },
+
+    "überMich": {
+        "kontaktFrage": "Du möchtest Kontakt?",
+        "nachrichtLabel": "Nachricht:",
+        "emailSenden": "E-Mail senden",
+        "vorstellen": "Ich bin Janis Pampoukidis, 18 Jahre alt und mache aktuell eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung bei der LEW Verteilnetz GmbH in Augsburg."
+    },
+
+    "skills": {
+        "andere": "Andere Skills"
+    },
+
+    "werdegang": {
+        "grundschule": "Grundschule Hammerschmiede",
+        "2014": "seit 2014",
+        "asp": "Abenteuerspielplatz Hammerschmiede",
+        "freiwillig": "(Als freiwilliger Helfer)",
+        "realschule": "Maria-Ward-Realschule Augsburg",
+        "ausbildung": "Ausbildung zum Fachinformatiker für Anwendungsentwicklung",
+        "bisHeute": "2020 - heute"
+    },
+
+    "projekte": {
+        "einkaufslisteTitel": "Einkaufsliste",
+        "portfolioTitel": "Portfolio",
+        "schulprojektTitel": "Schulprojekt",
+        "verwendungszweck": "Verwendungszweck:",
+        "privat": "Privat",
+        "versionsverwaltung": "Versionsverwaltung:",
+        "sonstiges": "Sonstiges:",
+        "entwickler": "Entwickler:"
+    },
+
+    "footer": {
+        "kontakt": "Kontakt?",
+        "impressum": "Impressum"
     }
 }

@@ -1,6 +1,50 @@
 {
-    "willkommen": {
-        "hallo": "Hi, i am",
-        "name": "Janis Pampoukidis"
+    "header": {
+        "überMich": "About me",
+        "werdegang": "Career",
+        "projekte": "Projects"
+    },
+
+    "home": {
+        "hi": "Hi, i am",
+        "beruf": "Developer",
+        "überMich": "About me"
+    },
+
+    "überMich": {
+        "kontaktFrage": "You want contact?",
+        "nachrichtLabel": "Message:",
+        "emailSenden": "Send E-Mail",
+        "vorstellen": "I'm Janis Pampoukidis, 18 years old, and I'm currently training to become an Developer at LEW Verteilnetz GmbH in Augsburg."
+    },
+
+    "skills": {
+        "andere": "Other Skills"
+    },
+
+    "werdegang": {
+        "grundschule": "Elementary school Hammerschmiede",
+        "2014": "since 2014",
+        "asp": "Abenteuerspielplatz Hammerschmiede",
+        "freiwillig": "(As a volunteer)",
+        "realschule": "Secondary school Maria-Ward Augsburg",
+        "ausbildung": "Training as a developer",
+        "bisHeute": "2020 - today"
+    },
+
+    "projekte": {
+        "einkaufslisteTitel": "Shopping list",
+        "portfolioTitel": "Portfolio",
+        "schulprojektTitel": "School project",
+        "entwickler": "Developer:",
+        "sonstiges": "Other:",
+        "verwendungszweck": "Intended  use:",
+        "privat": "Private",
+        "versionsverwaltung": "Version management:"
+    },
+
+    "footer": {
+        "kontakt": "Contact?",
+        "impressum": "Imprint"
     }
 }

@@ -10,18 +10,22 @@
                     <a class="nav-link" [routerLink]="['/Janis']" fragment="home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/Janis']" fragment="überMich">Über mich</a>
+                    <a class="nav-link" [routerLink]="['/Janis']" fragment="überMich" translate>header.überMich</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/Janis']" fragment="skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/Janis']" fragment="werdegang">Werdegang</a>
+                    <a class="nav-link" [routerLink]="['/Janis']" fragment="werdegang" translate>header.werdegang</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/Janis']" fragment="projekte">Projekte</a>
+                    <a class="nav-link" [routerLink]="['/Janis']" fragment="projekte" translate>header.projekte</a>
                 </li>
             </ul>
         </div>
+        <select class="form-select language" aria-label="Default select example" (change)="translateConfigService.changeLanguage($event.target.value)">
+            <option id="deutsch" value="de">Deutsch</option>
+            <option id="englisch" value="en" >Englisch</option>
+        </select>
     </nav>
 </header>
