@@ -2,7 +2,9 @@
     "header": {
         "überMich": "Über mich",
         "werdegang": "Werdegang",
-        "projekte": "Projekte"
+        "projekte": "Projekte",
+        "deutsch": "Deutsch",
+        "englisch": "Englisch"
     },
 
     "home": {
