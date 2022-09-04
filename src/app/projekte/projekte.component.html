@@ -1,0 +1,56 @@
+<section id="projekte">
+    <h1 class="headerLine" translate>header.projekte</h1>
+    <hr>
+
+    <div class="card2">
+        <app-projekt-dialog></app-projekt-dialog>
+        <table data-aos="fade-up">
+            <!-- Deutsch -->
+            <div *ngIf="translate.nowType==='de'">
+                <tr>
+                    <td *ngFor="let p of projekte.projekte.modal">
+                        <div class="card cardHover" style="width: 18rem;" data-aos="lip-up">
+                            <img class="card-img-top" src="assets/img/{{ p.bild }}" alt="{{ p.name }}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ p.name }}</h5>
+                                <ul>
+                                    <li><b>Framework:</b> {{ p.framework }} </li>
+                                    <li><b>DBMS:</b> {{ p.dbms }} </li>
+                                    <li><b>Webserver:</b> {{ p.webserver }} </li>
+                                    <li><b translate>projekte.hardwareMaterialienLabel</b> {{ p.hardware }} </li>
+                                    <li translate><b translate>projekte.verwendungszweckLabel</b> {{ p.verwendungszweck }}</li>
+                                    <li><b translate>projekte.versionsverwaltungLabel</b> {{ p.versionsverwaltung }} </li>
+                                    <li><b translate>projekte.entwicklerLabel</b> {{ p.entwickler }} </li>
+                                </ul>
+                                <p data-toggle="modal" [attr.data-target]="'#' + p.id" translate>projekte.deteilsLabel</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </div>
+            <!-- Englsich -->
+            <div *ngIf="translate.nowType==='en'">
+                <tr>
+                    <td *ngFor="let p of projekteEN.projekte.modal">
+                        <div class="card cardHover" style="width: 18rem;" data-aos="lip-up">
+                            <img class="card-img-top" src="assets/img/{{ p.bild }}" alt="{{ p.name }}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ p.name }}</h5>
+                                <ul>
+                                    <li><b>Framework:</b> {{ p.framework }} </li>
+                                    <li><b>DBMS:</b> {{ p.dbms }} </li>
+                                    <li><b>Webserver:</b> {{ p.webserver }} </li>
+                                    <li><b translate>projekte.hardwareMaterialienLabel</b> {{ p.hardware }} </li>
+                                    <li translate><b translate>projekte.verwendungszweckLabel</b> {{ p.verwendungszweck }}</li>
+                                    <li><b translate>projekte.versionsverwaltungLabel</b> {{ p.versionsverwaltung }} </li>
+                                    <li><b translate>projekte.entwicklerLabel</b> {{ p.entwickler }} </li>
+                                </ul>
+                                <p data-toggle="modal" [attr.data-target]="'#' + p.id" translate>projekte.deteilsLabel</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </div>
+        </table>
+    </div>
+</section>

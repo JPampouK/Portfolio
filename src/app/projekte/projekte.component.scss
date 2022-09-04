@@ -1,0 +1,53 @@
+#projekte {
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    .card4 {
+        margin-top: 20px;
+        background-color: rgb(86, 86, 86);
+        height: 450px;
+        width: 500px;
+        border-radius: 5px;
+    }
+    .projektCards,
+    tr,
+    td {
+        padding-right: 30px;
+    }
+    .card2 {
+        overflow-x: auto;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .card {
+        overflow: auto;
+        height: 470px;
+        min-width: 250px;
+        background-color: #565656;
+        transition: 0.3s;
+        box-shadow: 4px 9px 9px -7px black;
+        .card-title {
+            color: #fd7e14;
+        }
+        .card-img-top {
+            max-height: 160px;
+            object-fit: cover;
+        }
+    }
+    .card-body ul {
+        text-align: left;
+    }
+    .card:hover {
+        transform: scale(1.02);
+    }
+    p {
+        float: left;
+        cursor: pointer;
+        color: #fd7e14;
+        transition: 0.25s;
+        position: relative;
+    }
+    p:hover {
+        color: #c46211;
+        transform: translateX(20%);
+    }
+}

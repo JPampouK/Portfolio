@@ -1,0 +1,86 @@
+//-----------------------Über mich-------------------------------
+#überMich {
+    background-color: #303030;
+    text-align: center;
+    .card3 {
+        margin-top: 50px;
+        background-color: rgb(86, 86, 86);
+        height: 400px;
+        width: 500px;
+        border-radius: 5px;
+        float: right;
+    }
+    .card-body {
+        text-align: left;
+    }
+    .rand {
+        margin-left: 25px;
+        margin-top: 25px;
+        height: 350px;
+        width: 450px;
+        border-color: rgb(255, 119, 8);
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 5px;
+    }
+    .kontakt {
+        margin-bottom: 20px;
+    }
+    .kontakt input {
+        margin-left: 25px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .kontakt textarea {
+        margin-left: 3px;
+        vertical-align: top;
+        height: 100px;
+        max-width: 200px;
+        max-height: 150px;
+        color: rgb(255, 119, 8);
+    }
+    .txt3 {
+        color: white;
+        text-decoration: none;
+    }
+    .btn-outline-danger {
+        border-color: rgb(255, 119, 8);
+    }
+    .btn-outline-danger:hover {
+        background-color: rgb(255, 119, 8);
+    }
+    .programIcon {
+        width: 100px;
+        margin-right: 70px;
+        margin-top: 80px;
+        filter: invert(99%) sepia(92%) saturate(51%) hue-rotate(225deg) brightness(115%) contrast(100%);
+        transition: 0.75s;
+    }
+    .programIcon:hover {
+        transform: scale(1.2);
+        filter: invert(61%) sepia(58%) saturate(4778%) hue-rotate(355deg) brightness(101%) contrast(104%);
+    }
+}
+
+@media only screen and (max-width: 1118px) {
+    //-----------------------Über mich-------------------------------
+    #überMich {
+        background-color: rgb(48, 48, 48);
+        text-align: center;
+        height: auto;
+        min-height: 740px;
+        #sendMailButton {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+        }
+        .icons {
+            text-align: center;
+        }
+        .programIcon {
+            width: 70px;
+            margin-right: 30px;
+        }
+    }
+}

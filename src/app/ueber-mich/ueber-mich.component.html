@@ -1,0 +1,39 @@
+<section id="überMich">
+    <h1 class="headerLine" translate>header.überMich</h1>
+    <hr>
+
+    <div class="card2">
+        <div class="card-body" id="weit" data-aos="fade-up">
+            <div class="card3">
+                <div class="rand">
+                    <div class="card-body">
+                        <h4 style="text-align: center;" translate>überMich.kontaktFrage</h4>
+                        <form class="kontakt" userPost="ngForm">
+                            <label>E-Mail:</label>
+                            <input id="input" type="email" required style="color: rgb(255, 119, 8);" />
+                            <br>
+                            <label translate>überMich.nachrichtLabel</label>
+                            <textarea id="textarea" cols="30" rows="10" required></textarea>
+                        </form>
+                        <button type="button" class="btn btn-outline-danger"><a class="txt3" [href]="_sendMail.emailString" (click)="_sendMail.sendMail()" translate>überMich.emailSenden</a></button>
+                    </div>
+                </div>
+            </div>
+            <p style="text-align: left; margin-top: 55px; font-size: 25px;" translate>überMich.vorstellen</p>
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <img src="assets/img/icon-code.svg" title="Coden" style="margin-left: 27px" class="programIcon" alt="Code">
+                <img src="assets/img/icon-computer.svg" title="Computer" class="programIcon" alt="Computer">
+                <img src="assets/img/icon-terminal.svg" title="CLI" class="programIcon" alt="Terminal">
+            </div>
+        </div>
+        <div class="card-body" id="eng" data-aos="fade-up">
+            <p style="text-align: left; font-size: 27px;" translate>überMich.vorstellen</p>
+            <button type="button" id="sendMailButton" class="btn btn-outline-danger"><a [href]="_sendMail.emailString" (click)="_sendMail.sendMail()"><img src="assets/img/Mail.png" alt=""></a></button>
+            <div data-aos="zoom-in" data-aos-duration="3000" class="icons">
+                <img src="assets/img/icon-code.svg" title="Coden" class="programIcon" alt="Code">
+                <img src="assets/img/icon-computer.svg" title="Computer" class="programIcon" alt="Computer">
+                <img src="assets/img/icon-terminal.svg" title="CLI" class="programIcon" alt="Terminal">
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,133 @@
+{
+    "header": {
+        "überMich": "Über mich",
+        "werdegang": "Werdegang",
+        "projekte": "Projekte",
+        "deutsch": "Deutsch",
+        "englisch": "Englisch"
+    },
+
+    "home": {
+        "hi": "Hi, ich bin",
+        "beruf": "Fachinformatiker für Anwendungsentwicklung",
+        "überMich": "Über mich"
+    },
+
+    "überMich": {
+        "kontaktFrage": "Du möchtest Kontakt?",
+        "nachrichtLabel": "Nachricht:",
+        "emailSenden": "E-Mail senden",
+        "vorstellen": "Ich bin Janis Pampoukidis, 18 Jahre alt und mache aktuell eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung bei der LEW Verteilnetz GmbH in Augsburg."
+    },
+
+    "skills": {
+        "andere": "Andere Skills"
+    },
+
+    "werdegang": {
+        "grundschule": "Grundschule Hammerschmiede",
+        "2014": "seit 2014",
+        "asp": "Abenteuerspielplatz Hammerschmiede",
+        "freiwillig": "(Als freiwilliger Helfer)",
+        "realschule": "Maria-Ward-Realschule Augsburg",
+        "ausbildung": "Ausbildung zum Fachinformatiker für Anwendungsentwicklung",
+        "bisHeute": "2020 - heute"
+    },
+
+    "projekte": {
+        "verwendungszweckLabel": "Verwendungszweck:",
+        "privatLabel": "Privat",
+        "versionsverwaltungLabel": "Versionsverwaltung:",
+        "sonstigesLabel": "Sonstiges:",
+        "entwicklerLabel": "Entwickler:",
+        "berufsschuleLabel": "Berufsschule",
+        "hardwareMaterialienLabel": "Hardware/Materialien:",
+        "deteilsLabel": "Details",
+        "modal": [{
+                "id": "einkaufslisteModal",
+                "name": "Einkaufsliste",
+                "bild": "Einkaufsliste.png",
+                "framework": "Angular",
+                "dbms": "MySQL",
+                "webserver": "Apache",
+                "hardware": "/",
+                "verwendungszweck": "Privat",
+                "versionsverwaltung": "Git",
+                "entwickler": "Janis",
+                "bild1": "EL_Dashboard.png",
+                "bild2": "EL_Wetter.png",
+                "bild3": "EL_Dialog.png",
+                "erklaerung": "Dank der Einkaufsliste ist es möglich, den Wocheneinkauf neu zu planen. Dieser ist natürlich von außerhalb erreichbar und jeder berechtigte Nutzer, kann Wunscheinkäufe eintragen. Außerdem gibt es die Funktion, den Preis pro Woche anzugeben. Der Verlauf der Preise wird anhand eines Diagrammes dargestellt. Auf einer dritten Seite wird auch das aktuelle Wetter von ausgewählten Standorten angezeigt."
+            },
+            {
+                "id": "portfolioModal",
+                "name": "Portfolio",
+                "bild": "Portfolio.png",
+                "framework": "Angular",
+                "dbms": "/",
+                "webserver": "Apache",
+                "hardware": "/",
+                "verwendungszweck": "Privat",
+                "versionsverwaltung": "Git",
+                "entwickler": "Janis",
+                "bild1": "P_Home.png",
+                "bild2": "P_Skills.png",
+                "bild3": "P_Header.png",
+                "erklaerung": "Um noch mehr über Angular zu lernen, ist das Portfolio eine SPA. Hier gebe ich einen kleinen Einblick in meine Kenntnisse und Projekte."
+            },
+            {
+                "id": "schulprojektModal",
+                "name": "Schulprojekt",
+                "bild": "Tarife.png",
+                "framework": "Angular",
+                "dbms": "MySQL",
+                "webserver": "Apache",
+                "hardware": "/",
+                "verwendungszweck": "Schule",
+                "versionsverwaltung": "Git",
+                "entwickler": "Janis",
+                "bild1": "TR_Uebersicht.png",
+                "bild2": "TR_Login.png",
+                "bild3": "TR_Bearbeiten.png",
+                "erklaerung": "Für die letzte Woche in der Schule, durften wir ein Übungsprojekt erstellen. Dabei wurden alle Phasen eines Projektes durchlaufen und am Ende auch vorgestellt. Meine Aufgabe war einen Tarifrechner zu erstellen. Der Benutzer hat dabei die Möglichkeit seine kWh anzugeben und daraus werden ihm dann Tarife berechnet und vorgeschlagen. Außerdem können berechtigte Benutzer Tarife hinzufügen, bearbeiten, ansehen und löschen."
+            },
+            {
+                "id": "homeAssistantModal",
+                "name": "Home Assistant",
+                "bild": "HomeAssistant.png",
+                "framework": "/",
+                "dbms": "/",
+                "webserver": "Apache",
+                "hardware": "Raspberry Pi 4",
+                "verwendungszweck": "Privat",
+                "versionsverwaltung": "/",
+                "entwickler": "Janis",
+                "bild1": "HomeAssistant_Logo.png",
+                "bild2": "HA_Garten.png",
+                "bild3": "HA_Zimmer.png",
+                "erklaerung": "Um alle Smart-Home-Geräte an einem Platz steuern und verwalten zu können, läuft auf einem Raspberry Pi 4 der Home Assistant. Natürlich ist es auch möglich außerhalb auf den Home Assistanten zugreifen zu können."
+            },
+            {
+                "id": "magicMirrorModal",
+                "name": "Magic Mirror",
+                "bild": "MagicMirror.png",
+                "framework": "/",
+                "dbms": "/",
+                "webserver": "/",
+                "hardware": "Alter Monitor, Holz, Schwarze Farbe, Spionspiegel",
+                "verwendungszweck": "Privat",
+                "versionsverwaltung": "/",
+                "entwickler": "Janis",
+                "bild1": "MM_Aus.png",
+                "bild2": "MM_Aus.png",
+                "bild3": "MM_Aus.png",
+                "erklaerung": "Mit dem Magic Mirror mussten auch die handwerklichen Begabungen gezeigt werden. Der Rahmen ist selbstgebaut. Ausgegeben werden Informationen wie die aktuellen Corona-Fallzahlen, anstehende Feiertage oder ein selbst erstelltes Modul. Dieses führt alle 30 sek. ein Netzwerkscann durch und prüft, ob bestimmte Geräte erreichbar sind. Das Ergebnis wird anschließend ausgegeben."
+            }
+        ]
+    },
+
+    "footer": {
+        "kontakt": "Kontakt?",
+        "impressum": "Impressum"
+    }
+}

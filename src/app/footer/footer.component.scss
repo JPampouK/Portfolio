@@ -1,0 +1,40 @@
+//-----------------------Footer-------------------------------
+#oben {
+    border-radius: 10px;
+    transition: 0.45s;
+}
+
+#oben:hover {
+    background-color: rgba(255, 255, 255, 0.206);
+}
+
+footer {
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    text-align: center;
+    .txt3 {
+        text-decoration: none;
+        color: white;
+    }
+    .btn-outline-danger {
+        margin-top: 30px;
+    }
+    .socialMedia:hover {
+        transform: scale(1.1);
+    }
+    ul {
+        margin-top: 30px;
+    }
+    ul li {
+        display: inline;
+    }
+    #impressum {
+        text-decoration: none;
+        color: rgb(98, 98, 98);
+        transition: 0.25s;
+    }
+    #impressum:hover {
+        color: rgb(124, 124, 124);
+    }
+}

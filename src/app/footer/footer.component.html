@@ -1,0 +1,14 @@
+<a data-toggle="tooltip" title="Zurück nach oben" [routerLink]="['/Janis']" fragment="home" id="oben"><img id="test" src="assets/img/Pfeil_Weiß.png" alt="Nach oben" width="50px"></a>
+<footer>
+    <button type="button" class="btn btn-outline-danger"><a class="txt3" [href]="_sendMail.emailString" (click)="_sendMail.sendMail()" translate>footer.kontakt</a></button>
+    <ul>
+        <li>
+            <a style="margin-right: 20px" href="https://www.instagram.com/jpampou/" target="_blank"><img style="filter: grayscale(100%); " src="assets/img/Instagram.png" alt="Instagram" width="30px" class="socialMedia"></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/janis-p-272187225/" target="_blank"><img style="filter: grayscale(100%); " src="assets/img/LinkedIn.png" alt="LinkedIn" width="30px" class="socialMedia"></a>
+        </li>
+    </ul>
+    <p> &#169; 2022 Janis Pampoukidis</p>
+    <a id="impressum" routerLink="/Impressum" translate>footer.impressum</a>
+</footer>
