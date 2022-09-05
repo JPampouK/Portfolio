@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateConfigService } from '../translate-config.service';
+import { DarkLightThemeService } from '../dark-light-theme.service';
 
 @Component({
   selector: 'app-header',
@@ -7,8 +8,7 @@ import { TranslateConfigService } from '../translate-config.service';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
-  constructor(public translateConfigService: TranslateConfigService) { }
+  constructor(public translateConfigService: TranslateConfigService, public _darklight: DarkLightThemeService) { }
 
   ngOnInit() {
   }

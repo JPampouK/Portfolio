@@ -6,7 +6,7 @@
           </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/Janis']" fragment="home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -22,11 +22,37 @@
                     <a class="nav-link" [routerLink]="['/Janis']" fragment="projekte" translate>header.projekte</a>
                 </li>
             </ul>
+            <div id="eng">
+                <select class="form-select language" aria-label="Default select example" (change)="translateConfigService.changeLanguage($event.target.value)">
+                    <option id="deutsch" value="de"translate>header.deutsch</option>
+                    <option id="englisch" value="en" translate>header.englisch</option>
+                </select>
+            </div>
+            <br>
+            <div class="theme-switcher-wrap" id="eng">
+                <label [ngClass]="(_darklight.storedTheme === 'theme-light')?'theme-switcher active' : 'theme-switcher'" (click)="_darklight.setTheme()">
+                        <div class="switch-path">
+                        <div class="switch-handle"></div>
+                    </div>
+                </label>
+                <!-- <img src="assets/img/light_mode.png" alt="Light Mode" width="30px" id="light_mode"> -->
+            </div>
         </div>
 
-        <select class="form-select language" aria-label="Default select example" (change)="translateConfigService.changeLanguage($event.target.value)">
-            <option id="deutsch" value="de"translate>header.deutsch</option>
-            <option id="englisch" value="en" translate>header.englisch</option>
-        </select>
+        <div class="theme-switcher-wrap" id="weit">
+            <label [ngClass]="(_darklight.storedTheme === 'theme-light')?'theme-switcher active' : 'theme-switcher'" (click)="_darklight.setTheme()">
+                    <div class="switch-path">
+                    <div class="switch-handle"></div>
+                </div>
+            </label>
+            <!-- <img src="assets/img/light_mode.png" alt="Light Mode" width="30px" id="light_mode"> -->
+        </div>
+
+        <div id="weit">
+            <select class="form-select language" aria-label="Default select example" (change)="translateConfigService.changeLanguage($event.target.value)">
+                <option id="deutsch" value="de"translate>header.deutsch</option>
+                <option id="englisch" value="en" translate>header.englisch</option>
+            </select>
+        </div>
     </nav>
 </header>
