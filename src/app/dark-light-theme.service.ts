@@ -1,12 +1,16 @@
-import { Injectable } from '@angular/core';
+import { Injectable, OnInit } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
-export class DarkLightThemeService {
+export class DarkLightThemeService implements OnInit{
 
   constructor() { }
   storedTheme: string = localStorage.getItem('theme-color');
+  ngOnInit(){
+    localStorage.setItem('theme-color', 'theme-dark');
+    this.storedTheme = localStorage.getItem('theme-color');
+  }
 
   setTheme(){
     if(this.storedTheme === 'theme-light'){
