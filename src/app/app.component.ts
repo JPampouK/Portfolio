@@ -11,6 +11,7 @@ export class AppComponent implements OnInit{
 
   constructor(public _darklight: DarkLightThemeService ) {}
   ngOnInit(){
+      this._darklight.setTheme();
   }
 
 }
