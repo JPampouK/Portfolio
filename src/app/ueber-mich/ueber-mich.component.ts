@@ -8,7 +8,7 @@ import { SendMailService } from '../send-mail.service';
 })
 export class UeberMichComponent implements OnInit {
   constructor(public _sendMail: SendMailService) { }
-
+  currentDate = new Date();
   ngOnInit() {
   }
 
