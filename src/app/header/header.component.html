@@ -29,23 +29,29 @@
                 </select>
             </div>
             <br>
+
             <div class="theme-switcher-wrap" id="eng">
+                <div id="eng" style="display: inline-flex;">
+                    <img src="assets/img/dark_mode.png" alt="Dark Mode" width="30px" id="dark_mode">
+                </div>
                 <label [ngClass]="(_darklight.storedTheme === 'theme-light')?'theme-switcher active' : 'theme-switcher'" (click)="_darklight.setTheme()">
                         <div class="switch-path">
                         <div class="switch-handle"></div>
                     </div>
                 </label>
-                <!-- <img src="assets/img/light_mode.png" alt="Light Mode" width="30px" id="light_mode"> -->
             </div>
+        </div>
+
+        <div id="weit">
+            <img src="assets/img/dark_mode.png" alt="Dark Mode" width="30px" id="dark_mode">
         </div>
 
         <div class="theme-switcher-wrap" id="weit">
             <label [ngClass]="(_darklight.storedTheme === 'theme-light')?'theme-switcher active' : 'theme-switcher'" (click)="_darklight.setTheme()">
-                    <div class="switch-path">
+                <div class="switch-path">
                     <div class="switch-handle"></div>
                 </div>
             </label>
-            <!-- <img src="assets/img/light_mode.png" alt="Light Mode" width="30px" id="light_mode"> -->
         </div>
 
         <div id="weit">

@@ -19,6 +19,10 @@
     $bg-card3-theme-light: rgb(239, 239, 239);
     $color-theme-light: black;
     // light theme
+    #dark_mode {
+        filter: invert(0%);
+    }
+    
     #hamburger {
         filter: invert(0%);
     }
@@ -79,6 +83,9 @@
     .mdl-layout__content.theme-dark {
         background-color: $bg-theme-dark;
         color: $color-theme-dark;
+        #dark_mode {
+            filter: invert(100%);
+        }
         #hamburger {
             filter: invert(100%);
         }
