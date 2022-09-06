@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SendMailService } from '../send-mail.service';
+import countapi from 'countapi-js';
 
 @Component({
   selector: 'app-ueber-mich',
@@ -8,8 +9,18 @@ import { SendMailService } from '../send-mail.service';
 })
 export class UeberMichComponent implements OnInit {
   constructor(public _sendMail: SendMailService) { }
-  currentDate = new Date();
-  ngOnInit() {
-  }
+  countEL = document.getElementById('count');
+  counter: number;
 
+  ngOnInit() {
+    this.updateVisitorCount();
+  }
+  updateVisitorCount() {
+    fetch('https://api.countapi.xyz/update/janispampoukidis.duckdns.org/youtube/?amount=1')
+      .then(res => res.json())
+      .then(res => {
+        console.log(res.value);
+        this.counter = res.value;
+      })
+  } 
 }

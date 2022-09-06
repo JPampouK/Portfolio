@@ -1,5 +1,6 @@
 import { Component , OnInit} from '@angular/core';
 import { DarkLightThemeService } from './dark-light-theme.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +10,8 @@ import { DarkLightThemeService } from './dark-light-theme.service';
 export class AppComponent implements OnInit{
   title = 'Portfolio';
 
-  constructor(public _darklight: DarkLightThemeService ) {}
+  constructor(public _darklight: DarkLightThemeService, private http: HttpClient ) {}
   ngOnInit(){
       this._darklight.setTheme();
   }
-
 }
