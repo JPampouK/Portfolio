@@ -46,7 +46,7 @@ export function rootLoaderFactory(http: HttpClient){
   ],
   imports: [
     BrowserModule,
-     AppRoutingModule,
+    AppRoutingModule,
     MatButtonModule,
     BrowserAnimationsModule,
     MatChipsModule,
@@ -61,9 +61,9 @@ export function rootLoaderFactory(http: HttpClient){
     }),
     MatSlideToggleModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
-  providers: [SendMailService, {provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [SendMailService, {provide: LocationStrategy, useClass: HashLocationStrategy} ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
