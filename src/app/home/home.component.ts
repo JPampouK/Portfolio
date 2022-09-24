@@ -16,8 +16,19 @@ import { animate, style, transition, trigger } from '@angular/animations';
 export class HomeComponent implements OnInit {
   constructor(){
   }
+  counter: number;
+
 
   ngOnInit() {
+    this.updateVisitorCount();
   }
+
+  updateVisitorCount() {
+    fetch('https://api.countapi.xyz/update/janispampoukidis.duckdns.org/youtube/?amount=1')
+      .then(res => res.json())
+      .then(res => {
+        this.counter = res.value;
+      })
+  } 
 
 }

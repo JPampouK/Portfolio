@@ -30,6 +30,9 @@
     .mdl-layout__content.theme-light {
         background-color: $bg-theme-light;
         color: $color-theme-light;
+        .vorstellen {
+            color: #000;
+        }
         .progress {
             background-color: #797979;
         }
@@ -83,6 +86,9 @@
     .mdl-layout__content.theme-dark {
         background-color: $bg-theme-dark;
         color: $color-theme-dark;
+        .vorstellen {
+            color: #fff;
+        }
         #dark_mode {
             filter: invert(100%);
         }
@@ -233,5 +239,13 @@
             transition: all 0.5s ease;
         }
     }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+    
+    html,
+    body {
+        height: 100%;
+    }
+    
+    body {
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", sans-serif;
+    }

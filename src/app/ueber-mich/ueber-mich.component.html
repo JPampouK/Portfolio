@@ -19,8 +19,12 @@
                     </div>
                 </div>
             </div>
-            <p style="text-align: left; margin-top: 55px; font-size: 25px;" translate>überMich.vorstellen</p>
-            <h4 translate>überMich.anzahl <span style="color: rgb(255, 119, 8);">{{counter}}</span></h4>
+            <div *ngIf="translate.nowType==='de'">
+                <pre class="vorstellen" style="font-size: 20px;" translate>{{objectDE | json}}</pre>
+            </div>
+            <div *ngIf="translate.nowType==='en'">
+                <pre class="vorstellen" style="font-size: 20px;">{{objectEN | json}}</pre>
+            </div>
             <div data-aos="fade-up" data-aos-duration="3000">
                 <img src="assets/img/icon-code.svg" title="Coden" style="margin-left: 27px" class="programIcon" alt="Code">
                 <img src="assets/img/icon-computer.svg" title="Computer" class="programIcon" alt="Computer">
@@ -28,8 +32,6 @@
             </div>
         </div>
         <div class="card-body" id="eng" data-aos="fade-up">
-            <p style="text-align: left; font-size: 27px;" translate>überMich.vorstellen</p>
-            <h4 translate>überMich.anzahl <span style="color: rgb(255, 119, 8);">{{counter}}</span></h4>
             <button type="button" id="sendMailButton" class="btn btn-outline-danger"><a [href]="_sendMail.emailString" (click)="_sendMail.sendMail()"><img src="assets/img/Mail.png" alt=""></a></button>
             <div data-aos="zoom-in" data-aos-duration="3000" class="icons">
                 <img src="assets/img/icon-code.svg" title="Coden" class="programIcon" alt="Code">

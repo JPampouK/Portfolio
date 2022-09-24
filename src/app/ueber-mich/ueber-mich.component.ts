@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SendMailService } from '../send-mail.service';
-import countapi from 'countapi-js';
+import { TranslateConfigService } from '../translate-config.service';
+
 
 @Component({
   selector: 'app-ueber-mich',
@@ -8,19 +9,10 @@ import countapi from 'countapi-js';
   styleUrls: ['./ueber-mich.component.scss']
 })
 export class UeberMichComponent implements OnInit {
-  constructor(public _sendMail: SendMailService) { }
-  countEL = document.getElementById('count');
-  counter: number;
+  constructor(public _sendMail: SendMailService, public translate: TranslateConfigService) { }
+  objectDE: Object =  { "Janis": { "vorname": "Janis", "nachname": "Pampoukidis", "alter": 19, "ausbildung": { "als": "Fachinformatiker für Anwendungsentwicklung", "firma": "LEW Verteilnetz GmbH" } } };
+  objectEN: Object =  { "Janis": { "firstname": "Janis", "lastname": "Pampoukidis", "age": 19, "training": { "as": "Developer", "company": "LEW Verteilnetz GmbH" } } };
 
   ngOnInit() {
-    this.updateVisitorCount();
   }
-  updateVisitorCount() {
-    fetch('https://api.countapi.xyz/update/janispampoukidis.duckdns.org/youtube/?amount=1')
-      .then(res => res.json())
-      .then(res => {
-        console.log(res.value);
-        this.counter = res.value;
-      })
-  } 
 }
