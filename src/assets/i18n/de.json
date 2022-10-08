@@ -44,6 +44,22 @@
         "hardwareMaterialienLabel": "Hardware/Materialien:",
         "deteilsLabel": "Details",
         "modal": [{
+                "id": "nicoModal",
+                "name": "Comming Soon",
+                "bild": "Foto-Platzhalter.jpg",
+                "framework": "",
+                "dbms": "",
+                "webserver": "",
+                "hardware": "",
+                "verwendungszweck": "",
+                "versionsverwaltung": "",
+                "entwickler": "",
+                "bild1": "Foto-Platzhalter.jpg",
+                "bild2": "Foto-Platzhalter.jpg",
+                "bild3": "Foto-Platzhalter.jpg",
+                "erklaerung": ""
+            },
+            {
                 "id": "einkaufslisteModal",
                 "name": "Einkaufsliste",
                 "bild": "Einkaufsliste.png",
