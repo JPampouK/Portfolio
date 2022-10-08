@@ -26,6 +26,7 @@
         "angular-typing-animation": "^0.5.4",
         "countapi-js": "^1.0.2",
         "hammerjs": "^2.0.8",
+        "json-colorizer": "^2.2.2",
         "ng-mat-carousel": "^0.11.1",
         "ngx-swiper-wrapper": "^8.0.2",
         "rxjs": "^7.5.6",
