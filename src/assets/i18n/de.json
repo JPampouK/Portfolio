@@ -60,6 +60,22 @@
                 "erklaerung": ""
             },
             {
+                "id": "loungeModal",
+                "name": "LED Lounge",
+                "bild": "Lounge.jpeg",
+                "framework": "Arduino",
+                "dbms": "/",
+                "webserver": "WLED",
+                "hardware": "ESP8266, LED ws2801, Kunststoff, Holz",
+                "verwendungszweck": "Privat",
+                "versionsverwaltung": "Git",
+                "entwickler": "Janis",
+                "bild1": "EL_Dashboard.png",
+                "bild2": "EL_Wetter.png",
+                "bild3": "EL_Dialog.png",
+                "erklaerung": ""
+            },
+            {
                 "id": "einkaufslisteModal",
                 "name": "Einkaufsliste",
                 "bild": "Einkaufsliste.png",
