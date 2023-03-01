@@ -1,18 +1,37 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+name: Build and Deploy Angular App to Raspberry Pi
+
+on:
+  push:
+    branches:
+      - master # oder eine andere bevorzugte Branch-Bezeichnung
+
 jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+  build:
+    name: Build Angular App
+    runs-on: ubuntu-latest # andere Betriebssysteme sind ebenfalls möglich
+
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Check out repository code
-        uses: actions/checkout@v3
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+    - name: Checkout Repo
+      uses: actions/checkout@v2 # lädt das Repository herunter
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v2 # konfiguriert das Node.js-Umfeld
+      with:
+        node-version: '14.x'
+    - name: Install dependencies
+      run: npm install # lädt die Pakete herunter
+    - name: Build app
+      run: npm run build --prod # baut die App im Produktionsmodus
+
+  # deploy:
+  #   name: Deploy to Raspberry Pi
+  #   runs-on: ubuntu-latest # andere Betriebssysteme sind ebenfalls möglich
+
+  #   steps:
+  #   - name: Copy app to Raspberry Pi
+  #     uses: appleboy/scp-action@master # kopiert die Dateien auf den Raspberry Pi
+  #     with:
+  #       host: ${{ secrets.RPI_HOST }} # fügt die IP-Adresse oder den Hostname des Raspberry Pi ein
+  #       username: ${{ secrets.RPI_USERNAME }} # fügt den Benutzernamen ein
+  #       password: ${{ secrets.RPI_PASSWORD }} # fügt das Passwort ein
+  #       source: ./dist/my-app # gibt das Verzeichnis an, das kopiert werden soll
+  #       target: /home/pi/my-app # gibt das Zielverzeichnis auf dem Raspberry Pi an
