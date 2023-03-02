@@ -1,25 +1,25 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" [routerLink]="['/Janis']" fragment="home">Janis Pampoukidis</a>
+        <a class="navbar-brand" (click)="scrollToSection('home')">Janis Pampoukidis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <img src="assets/img/hamburger.png" alt="Menü" id="hamburger" width="35px">
           </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/Janis']" fragment="home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" (click)="scrollToSection('home')">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/Janis']" fragment="überMich" translate>header.überMich</a>
+                    <a class="nav-link" (click)="scrollToSection('überMich')" translate>header.überMich</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/Janis']" fragment="skills">Skills</a>
+                    <a class="nav-link" (click)="scrollToSection('skills')">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/Janis']" fragment="werdegang" translate>header.werdegang</a>
+                    <a class="nav-link" (click)="scrollToSection('werdegang')" translate>header.werdegang</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/Janis']" fragment="projekte" translate>header.projekte</a>
+                    <a class="nav-link" (click)="scrollToSection('projekte')" translate>header.projekte</a>
                 </li>
             </ul>
             <div id="eng">

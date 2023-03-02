@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef  } from '@angular/core';
 import { TranslateConfigService } from '../translate-config.service';
 import { DarkLightThemeService } from '../dark-light-theme.service';
 
@@ -8,9 +8,16 @@ import { DarkLightThemeService } from '../dark-light-theme.service';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  constructor(public translateConfigService: TranslateConfigService, public _darklight: DarkLightThemeService) { }
+  constructor(private elementRef: ElementRef, public translateConfigService: TranslateConfigService, public _darklight: DarkLightThemeService) { }
 
   ngOnInit() {
+  }
+
+  scrollToSection(section: string) {
+    const element = document.querySelector('#' + section);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   }
 
 }

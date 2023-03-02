@@ -23,6 +23,13 @@ export class HomeComponent implements OnInit {
     this.updateVisitorCount();
   }
 
+  scrollToSection(section: string) {
+    const element = document.querySelector('#' + section);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   updateVisitorCount() {
     fetch('https://api.countapi.xyz/update/janispampoukidis.duckdns.org/youtube/?amount=1')
       .then(res => res.json())

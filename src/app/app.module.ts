@@ -63,7 +63,7 @@ export function rootLoaderFactory(http: HttpClient){
     FormsModule,
     BrowserAnimationsModule,
   ],
-  providers: [SendMailService, {provide: LocationStrategy, useClass: HashLocationStrategy} ],
+  providers: [SendMailService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
