@@ -25,16 +25,6 @@
         "andere": "Other Skills"
     },
 
-    "werdegang": {
-        "grundschule": "Elementary school Hammerschmiede",
-        "2014": "since 2014",
-        "asp": "Abenteuerspielplatz Hammerschmiede",
-        "freiwillig": "(As a volunteer)",
-        "realschule": "Secondary school Maria-Ward Augsburg",
-        "ausbildung": "Training as a developer",
-        "bisHeute": "2020 - today"
-    },
-
     "projekte": {
         "entwicklerLabel": "Developer:",
         "sonstigesLabel": "Other:",

@@ -15,8 +15,7 @@ export class ProjekteComponent implements OnInit {
   projekte: any = deutsch;
   projekteEN: any = englisch;
 
+  ngOnInit(): void {
 
-  ngOnInit() {
   }
-
 }

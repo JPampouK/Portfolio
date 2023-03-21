@@ -7,9 +7,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { MatSlideToggleModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -62,6 +62,7 @@ export function rootLoaderFactory(http: HttpClient){
     MatSlideToggleModule,
     FormsModule,
     BrowserAnimationsModule,
+    IvyCarouselModule
   ],
   providers: [SendMailService],
   bootstrap: [AppComponent]

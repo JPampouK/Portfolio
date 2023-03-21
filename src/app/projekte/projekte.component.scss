@@ -6,15 +6,13 @@
         width: 500px;
         border-radius: 5px;
     }
-    .projektCards,
-    tr,
-    td {
-        padding-right: 30px;
-    }
     .card2 {
         overflow-x: auto;
         padding-top: 30px;
         padding-left: 20px;
+        carousel {
+            z-index: 0;
+        }
     }
     .card {
         overflow: auto;
