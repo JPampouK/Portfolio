@@ -15,6 +15,8 @@ export class WerdegangComponent implements OnInit {
   currentTheme: string;
   currentLang: string;
   private subscription: Subscription;
+  screenWidth: number;
+
 
   ngOnInit() {
     this.subscription = this._darklightTheme.getCurrentTheme().subscribe(theme => {
@@ -23,8 +25,12 @@ export class WerdegangComponent implements OnInit {
 
     this.subscription = this._translate.getCurrentLang().subscribe(lang => {
       this.currentLang = lang;
-      console.log(this.currentLang);
-    })
+    });
+
+    this.screenWidth = window.innerWidth;
+    window.addEventListener('resize', () => {
+      this.screenWidth = window.innerWidth;
+    });
   }
 
   ngOnDestroy() {

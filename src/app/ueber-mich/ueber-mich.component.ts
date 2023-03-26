@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { SendMailService } from '../send-mail.service';
 import { TranslateConfigService } from '../translate-config.service';
+import { Subscription } from 'rxjs';
+import { DarkLightThemeService } from '../dark-light-theme.service';
 
 
 @Component({
@@ -9,13 +11,29 @@ import { TranslateConfigService } from '../translate-config.service';
   styleUrls: ['./ueber-mich.component.scss']
 })
 export class UeberMichComponent implements OnInit {
-  constructor(public _sendMail: SendMailService, public translate: TranslateConfigService) { }
-  objectDE: Object =  { "Janis": { "vorname": "Janis", "nachname": "Pampoukidis", "alter": 19, "ausbildung": { "als": "Fachinformatiker für Anwendungsentwicklung", "firma": "LEW Verteilnetz GmbH" } } };
-  objectEN: Object =  { "Janis": { "firstname": "Janis", "lastname": "Pampoukidis", "age": 19, "training": { "as": "Developer", "company": "LEW Verteilnetz GmbH" } } };
-  
-  objectDEeng: Object =  { "Janis": { "vorname": "Janis", "nachname": "Pampoukidis", "alter": 19, "ausbildung": { "als": "FIA ", "firma": "LVN" } } };
-  objectENeng: Object =  { "Janis": { "firstname": "Janis", "lastname": "Pampoukidis", "age": 19, "training": { "as": "Developer", "company": "LVN" } } };
+  constructor(public _sendMail: SendMailService, private _darklightTheme: DarkLightThemeService, private translate: TranslateConfigService) { }
+  currentTheme: string;
+  currentLang: string;
+  private subscription: Subscription;
+  screenWidth: number;
+
   
   ngOnInit() {
+    this.subscription = this._darklightTheme.getCurrentTheme().subscribe(theme => {
+      this.currentTheme = theme;
+    });
+
+    this.subscription = this.translate.getCurrentLang().subscribe(lang => {
+      this.currentLang = lang;
+    });
+
+    this.screenWidth = window.innerWidth;
+    window.addEventListener('resize', () => {
+      this.screenWidth = window.innerWidth;
+    });
+  }
+
+  ngOnDestroy() {
+    this.subscription.unsubscribe();
   }
 }
