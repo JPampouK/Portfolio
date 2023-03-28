@@ -14,7 +14,7 @@ export class DarkLightThemeService {
       this.storedTheme = 'theme-dark';
     } else {
       localStorage.setItem('theme-color', 'theme-light');
-      this.storedTheme = 'theme-light';
+      this.storedTheme = 'theme-dark';
     }
     this.updateCurrentTheme();
   }

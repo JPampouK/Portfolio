@@ -55,6 +55,18 @@
             float: right;
             width: 300px;
             border: 1px solid #000000;
+            animation: schweben 2s ease-in-out infinite;
+        }
+        @keyframes schweben {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
         }
         .socialMediaButton {
             margin-left: 20px;
