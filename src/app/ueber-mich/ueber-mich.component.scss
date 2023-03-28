@@ -10,6 +10,10 @@
     }
     .ichIMG {
         width: 700px;
+        transition: 0.9s;
+    }
+    .ichIMG:hover {
+        transform: scale(1.04);
     }
     .hljs {
         width: 700px;
