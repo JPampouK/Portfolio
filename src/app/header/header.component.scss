@@ -7,7 +7,6 @@ header {
         position: fixed !important;
         width: 100% !important;
     }
-    .bg-dark {}
     .language {
         color: black;
         float: right;
@@ -50,6 +49,11 @@ header {
                     background-color: #7bbb5e;
                 }
             }
+        }
+    }
+    @media only screen and (max-width: 990px) {
+        .bg-dark {
+            background-color: rgba(0, 0, 0, 0.8) !important;
         }
     }
     @media only screen and (max-width: 1118px) {

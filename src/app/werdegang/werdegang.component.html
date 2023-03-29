@@ -4,15 +4,11 @@
     <div class="card2">
         <div class="card-body" data-aos="fade-up">
             <div *ngIf="screenWidth >= 990">
-                <img [src]="currentTheme === 'theme-dark' ? 
-                                (currentLang === 'de' ? 'assets/img/werdegang/werdegang_WEIß_DE.svg' : 'assets/img/werdegang/werdegang_WEIß_EN.svg')
-                              : (currentLang === 'de' ? 'assets/img/werdegang/werdegang_SCHWARZ_DE.svg' : 'assets/img/werdegang/werdegang_SCHWARZ_EN.svg')" alt="" class="werdegangIMG">
-            </div>
+                <img [src]="currentLang === 'de' ? 'assets/img/werdegang/werdegang_WEIß_DE.svg' : 'assets/img/werdegang/werdegang_WEIß_EN.svg' " alt="" class="werdegangIMG">
 
+            </div>
             <div *ngIf="screenWidth <= 990">
-                <img [src]="currentTheme === 'theme-dark' ? 
-                                (currentLang === 'de' ? 'assets/img/werdegang/werdegang_WEIß_DE_MOBIL.svg' : 'assets/img/werdegang/werdegang_WEIß_EN_MOBIL.svg')
-                              : (currentLang === 'de' ? 'assets/img/werdegang/werdegang_SCHWARZ_DE_MOBIL.svg' : 'assets/img/werdegang/Werdegang_SCHWARZ_EN_MOBIL.svg')" alt="" class="werdegangIMGMobil">
+                <img [src]="currentLang === 'de' ? 'assets/img/werdegang/werdegang_WEIß_DE_MOBIL.svg' : 'assets/img/werdegang/werdegang_WEIß_EN_MOBIL.svg' " alt="" class="werdegangIMGMobil">
             </div>
         </div>
     </div>

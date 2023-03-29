@@ -24,22 +24,18 @@
                                     (currentLang === 'de' ? 'assets/img/ich/ich_SCHWARZ_DE.svg' : 'assets/img/ich/ich_SCHWARZ_EN.svg')
                                   : (currentLang === 'de' ? 'assets/img/ich/ich_WEIß_DE.svg' : 'assets/img/ich/ich_WEIß_EN.svg')" alt="" class="ichIMG">
             </div>
+            <div *ngIf="screenWidth <= 1276" id="vorstellen">
+                <p translate>überMich.vorstellen</p>
+            </div>
             <div data-aos="fade-up" data-aos-duration="3000">
                 <img src="assets/img/icon-code.svg" title="Coden" style="margin-left: 27px" class="programIcon" alt="Code">
                 <img src="assets/img/icon-computer.svg" title="Computer" class="programIcon" alt="Computer">
                 <img src="assets/img/icon-terminal.svg" title="CLI" class="programIcon" alt="Terminal">
             </div>
-            <div *ngIf="screenWidth <= 1276" id="test">
-                <img [src]="currentTheme === 'theme-dark' ? 
-                                    (currentLang === 'de' ? 'assets/img/ich/ich_SCHWARZ_DE_MOBIL.svg' : 'assets/img/ich/ich_SCHWARZ_EN.svg')
-                                  : (currentLang === 'de' ? 'assets/img/ich/ich_WEIß_DE.svg' : 'assets/img/ich/ich_WEIß_EN.svg')" alt="" class="ichIMGMobil">
-            </div>
         </div>
         <div class="card-body" id="eng" data-aos="fade-up">
-            <div *ngIf="screenWidth <= 1276">
-                <img [src]="currentTheme === 'theme-dark' ? 
-                                    (currentLang === 'de' ? 'assets/img/ich/ich_SCHWARZ_DE_MOBIL.svg' : 'assets/img/ich/ich_SCHWARZ_EN.svg')
-                                  : (currentLang === 'de' ? 'assets/img/ich/ich_WEIß_DE.svg' : 'assets/img/ich/ich_WEIß_EN.svg')" alt="" class="ichIMGMobil">
+            <div *ngIf="screenWidth <= 1276" id="vorstellen">
+                <p translate>überMich.vorstellen</p>
             </div>
             <button type="button" id="sendMailButton" class="btn btn-outline-danger"><a [href]="_sendMail.emailString" (click)="_sendMail.sendMail()"><img src="assets/img/Mail.png" alt=""></a></button>
             <div data-aos="zoom-in" data-aos-duration="3000" class="icons">

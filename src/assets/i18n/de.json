@@ -17,7 +17,8 @@
         "kontaktFrage": "Du möchtest Kontakt?",
         "nachrichtLabel": "Nachricht:",
         "emailSenden": "E-Mail senden",
-        "anzahl": "Anzahl der Besucher: "
+        "anzahl": "Anzahl der Besucher: ",
+        "vorstellen": "Ich bin Janis, 19 Jahre alt und absolviere aktuell eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung bei der LEW Verteilnetz GmbH in Augsburg."
     },
 
     "skills": {
