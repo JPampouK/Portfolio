@@ -1,0 +1,155 @@
+{
+    "header": {
+        "überMich": "About me",
+        "werdegang": "Career",
+        "projekte": "Projects",
+        "deutsch": "German",
+        "englisch": "English"
+    },
+
+    "home": {
+        "hi": "Hi, I`m",
+        "beruf": "Developer",
+        "überMich": "About me"
+    },
+
+    "überMich": {
+        "kontaktFrage": "You want contact?",
+        "nachrichtLabel": "Message:",
+        "emailSenden": "Send E-Mail",
+        "vorstellen": "I'm Janis Pampoukidis, 19 years old, and I'm currently training to become an Developer at LEW Verteilnetz GmbH in Augsburg.",
+        "anzahl": "Number of visitors: "
+    },
+
+    "skills": {
+        "andere": "Other Skills"
+    },
+
+    "projekte": {
+        "entwicklerLabel": "Developer:",
+        "sonstigesLabel": "Other:",
+        "verwendungszweckLabel": "Intended  use:",
+        "versionsverwaltungLabel": "Version management:",
+        "berufsschuleLabel": "Vocational school",
+        "hardwareMaterialienLabel": "Hardware/Materials:",
+        "deteilsLabel": "Details",
+        "modal": [{
+                "id": "nicoModal",
+                "name": "Comming Soon",
+                "bild": "Foto-Platzhalter.jpg",
+                "framework": "",
+                "dbms": "",
+                "webserver": "",
+                "hardware": "",
+                "verwendungszweck": "",
+                "versionsverwaltung": "",
+                "entwickler": "",
+                "bild1": "Foto-Platzhalter.jpg",
+                "bild2": "Foto-Platzhalter.jpg",
+                "bild3": "Foto-Platzhalter.jpg",
+                "erklaerung": ""
+            },
+            {
+                "id": "loungeModal",
+                "name": "LED Lounge",
+                "bild": "Lounge.jpeg",
+                "framework": "Arduino",
+                "dbms": "/",
+                "webserver": "WLED",
+                "hardware": "ESP8266, LED ws2801, Plastic, Wood",
+                "verwendungszweck": "Private",
+                "versionsverwaltung": "Git",
+                "entwickler": "Janis",
+                "bild1": "EL_Dashboard.png",
+                "bild2": "EL_Wetter.png",
+                "bild3": "EL_Dialog.png",
+                "erklaerung": ""
+            },
+            {
+                "id": "einkaufslisteModal",
+                "name": "Shopping list",
+                "bild": "Einkaufsliste.png",
+                "framework": "Angular",
+                "dbms": "MySQL",
+                "webserver": "Apache",
+                "hardware": "/",
+                "verwendungszweck": "Private",
+                "versionsverwaltung": "Git",
+                "entwickler": "Janis",
+                "bild1": "EL_Dashboard.png",
+                "bild2": "EL_Wetter.png",
+                "bild3": "EL_Dialog.png",
+                "erklaerung": "Thanks to the shopping list, it is possible to re-plan the weekly shopping. This is of course accessible from outside and any authorized user, can enter desired purchases. There is also the function to specify the price per week. The course of the prices, is represented on the basis a diagram. On a third page, the current weather of selected locations is also displayed."
+            },
+            {
+                "id": "portfolioModal",
+                "name": "Portfolio",
+                "bild": "Portfolio.png",
+                "framework": "Angular",
+                "dbms": "/",
+                "webserver": "Apache",
+                "hardware": "/",
+                "verwendungszweck": "Private",
+                "versionsverwaltung": "Git",
+                "entwickler": "Janis",
+                "bild1": "P_Home.png",
+                "bild2": "P_Skills.png",
+                "bild3": "P_Header.png",
+                "erklaerung": "To learn even more about Angular, the portfolio is a SPA. Here I give a little insight into my knowledge and projects."
+            },
+            {
+                "id": "schulprojektModal",
+                "name": "School project",
+                "bild": "Tarife.png",
+                "framework": "Angular",
+                "dbms": "MySQL",
+                "webserver": "Apache",
+                "hardware": "/",
+                "verwendungszweck": "School",
+                "versionsverwaltung": "Git",
+                "entwickler": "Janis",
+                "bild1": "TR_Uebersicht.png",
+                "bild2": "TR_Login.png",
+                "bild3": "TR_Bearbeiten.png",
+                "erklaerung": "For the last week at school, we were allowed to create a practice project. We went through all the phases of a project and presented it at the end. My topic was to create a tariff calculator. The user has the possibility to enter his kWh and then tariffs are calculated and suggested. In addition, authorized users can add, edit, view and delete tariffs."
+            },
+            {
+                "id": "homeAssistantModal",
+                "name": "Home Assistant",
+                "bild": "HomeAssistant.png",
+                "framework": "/",
+                "dbms": "/",
+                "webserver": "Apache",
+                "hardware": "Raspberry Pi 4",
+                "verwendungszweck": "Private",
+                "versionsverwaltung": "/",
+                "entwickler": "Janis",
+                "bild1": "HomeAssistant_Logo.png",
+                "bild2": "HA_Garten.png",
+                "bild3": "HA_Zimmer.png",
+                "erklaerung": "To be able to control and manage all smart home devices in one place, the Home Assistant runs on a Raspberry Pi 4. Of course, it is also possible to access the Home Assistant from outside."
+            },
+            {
+                "id": "magicMirrorModal",
+                "name": "Magic Mirror",
+                "bild": "MagicMirror.png",
+                "framework": "/",
+                "dbms": "/",
+                "webserver": "/",
+                "hardware": "Old monitor, Wood, Black lacquer, Spy mirror",
+                "verwendungszweck": "Private",
+                "versionsverwaltung": "/",
+                "entwickler": "Janis",
+                "bild1": "MM_Aus.png",
+                "bild2": "MM_Aus.png",
+                "bild3": "MM_Aus.png",
+                "erklaerung": "With the Magic Mirror also had to show the craftsmanship. The frame is self-made. Information such as the current Corona case numbers, upcoming holidays or a self-created module is output. This performs a network scan every 30 sec. and checks if certain devices are reachable. The result is then output."
+            }
+        ]
+    },
+
+    "footer": {
+        "kontakt": "Contact?",
+        "impressum": "Imprint"
+    }
+}
