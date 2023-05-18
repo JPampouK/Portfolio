@@ -1,4 +1,5 @@
 <div class="cookie-banner alert alert-dismissible alert-info" role="alert" *ngIf="!cookieService.get('cookieConsent')">
-    <p>Diese Website verwendet Google Analytics, um anonymisierte Nutzungsstatistiken zu sammeln. Wenn Sie diese Website nutzen, stimmen Sie der Verwendung von Cookies und der Erhebung von Daten durch Google Analytics zu. <a href="#" (click)="onAccept()">Mehr erfahren</a></p>
+    <p>Diese Website verwendet Google Analytics, um anonymisierte Nutzungsstatistiken zu sammeln. Wenn Sie diese Website nutzen, stimmen Sie der Verwendung von Cookies und der Erhebung von Daten durch Google Analytics zu. <a href="https://www.datenschutzkonferenz-online.de/media/dskb/20200526_beschluss_hinweise_zum_einsatz_von_google_analytics.pdf"
+            target="_blank">Mehr erfahren</a></p>
     <button type="button" class="btn btn-success" (click)="onAccept()">Akzeptieren</button>
 </div>

@@ -39,12 +39,11 @@ export class HomeComponent implements OnInit {
   }
 
   updateVisitorCount() {
-    const storedCount = localStorage.getItem('visitorCount');
-    if (storedCount) {
-      this.visitorCount = parseInt(storedCount, 10);
-    }
-    this.visitorCount++;
-    localStorage.setItem('visitorCount', this.visitorCount.toString());
+  //   const storedCount = localStorage.getItem('visitorCount');
+  //   if (storedCount) {
+  //     this.visitorCount = parseInt(storedCount, 10);
+  //   }
+  //   this.visitorCount++;
+  //   localStorage.setItem('visitorCount', this.visitorCount.toString());
   }
-
 }
