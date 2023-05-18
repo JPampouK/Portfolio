@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { animate, style, transition, trigger } from '@angular/animations';
-import { GoogleAnalyticsService } from '../google-analytics.service';
-
 declare var $: any;
 
 @Component({
@@ -18,7 +16,7 @@ declare var $: any;
   ]
 })
 export class HomeComponent implements OnInit {
-  constructor(private googleAnalyticsService: GoogleAnalyticsService){
+  constructor() {
   }
   counter: number;
   visitorCount: number = 0;
@@ -28,12 +26,9 @@ export class HomeComponent implements OnInit {
     if (window.innerWidth < 1120) {
       $('#infoModal').modal('show');
     }
-    //this.updateVisitorCount();
 
-    // this.googleAnalyticsService.getVisitorCount()
-    //   .then(count => {
-    //     this.visitorCount = count;
-    //   });
+    // Besucher zählen
+    this.updateVisitorCount();
   }
 
   scrollToSection(section: string) {
@@ -44,11 +39,12 @@ export class HomeComponent implements OnInit {
   }
 
   updateVisitorCount() {
-    fetch('https://api.countapi.xyz/update/janispampoukidis.duckdns.org/youtube/?amount=1')
-      .then(res => res.json())
-      .then(res => {
-        this.counter = res.value;
-      })
-  } 
+    const storedCount = localStorage.getItem('visitorCount');
+    if (storedCount) {
+      this.visitorCount = parseInt(storedCount, 10);
+    }
+    this.visitorCount++;
+    localStorage.setItem('visitorCount', this.visitorCount.toString());
+  }
 
 }

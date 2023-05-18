@@ -26,7 +26,6 @@ import { UeberMichComponent } from './ueber-mich/ueber-mich.component';
 import { WerdegangComponent } from './werdegang/werdegang.component';
 import { SendMailService } from './send-mail.service';
 import { CookieBannerComponent } from './cookie-banner/cookie-banner.component';
-import { GoogleAnalyticsService } from './google-analytics.service';
 import { CookieService } from 'ng2-cookies';
 
 export function rootLoaderFactory(http: HttpClient){
@@ -68,7 +67,7 @@ export function rootLoaderFactory(http: HttpClient){
     BrowserAnimationsModule,
     IvyCarouselModule
   ],
-  providers: [SendMailService, GoogleAnalyticsService, CookieBannerComponent, CookieService],
+  providers: [SendMailService, CookieBannerComponent, CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
