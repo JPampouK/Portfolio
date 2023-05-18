@@ -25,6 +25,9 @@ import { StartComponent } from './start/start.component';
 import { UeberMichComponent } from './ueber-mich/ueber-mich.component';
 import { WerdegangComponent } from './werdegang/werdegang.component';
 import { SendMailService } from './send-mail.service';
+import { CookieBannerComponent } from './cookie-banner/cookie-banner.component';
+import { GoogleAnalyticsService } from './google-analytics.service';
+import { CookieService } from 'ng2-cookies';
 
 export function rootLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
@@ -42,7 +45,8 @@ export function rootLoaderFactory(http: HttpClient){
     SkillsComponent,
     StartComponent,
     UeberMichComponent,
-    WerdegangComponent
+    WerdegangComponent,
+    CookieBannerComponent
   ],
   imports: [
     BrowserModule,
@@ -64,7 +68,7 @@ export function rootLoaderFactory(http: HttpClient){
     BrowserAnimationsModule,
     IvyCarouselModule
   ],
-  providers: [SendMailService],
+  providers: [SendMailService, GoogleAnalyticsService, CookieBannerComponent, CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

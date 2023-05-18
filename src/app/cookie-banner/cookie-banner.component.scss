@@ -1,0 +1,15 @@
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    margin: 0;
+    padding: 15px;
+    border-radius: 0;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-color: black;
+    border-top-color: rgb(255, 119, 8);
+}

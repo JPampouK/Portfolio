@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { animate, style, transition, trigger } from '@angular/animations';
+import { GoogleAnalyticsService } from '../google-analytics.service';
+
 declare var $: any;
 
 @Component({
@@ -16,16 +18,22 @@ declare var $: any;
   ]
 })
 export class HomeComponent implements OnInit {
-  constructor(){
+  constructor(private googleAnalyticsService: GoogleAnalyticsService){
   }
   counter: number;
+  visitorCount: number = 0;
 
 
   ngOnInit() {
     if (window.innerWidth < 1120) {
       $('#infoModal').modal('show');
     }
-    this.updateVisitorCount();
+    //this.updateVisitorCount();
+
+    // this.googleAnalyticsService.getVisitorCount()
+    //   .then(count => {
+    //     this.visitorCount = count;
+    //   });
   }
 
   scrollToSection(section: string) {

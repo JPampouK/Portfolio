@@ -5,7 +5,7 @@ import { BehaviorSubject, Observable, Subscription } from 'rxjs';
   providedIn: 'root'
 })
 export class DarkLightThemeService {
-  private storedTheme: string = localStorage.getItem('theme-color');
+  public storedTheme: string = localStorage.getItem('theme-color');
   private currentTheme: BehaviorSubject<string> = new BehaviorSubject(this.storedTheme);
 
   setTheme() {
