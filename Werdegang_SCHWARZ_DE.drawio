@@ -1,0 +1,298 @@
+<mxfile host="app.diagrams.net" modified="2023-03-28T05:36:11.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ZUgyg9yrJj4St63c3rXP" version="21.1.1" type="device" pages="4">
+  <diagram name="Seite-1" id="8KrhgjUm2OSV7CWdpO_J">
+    <mxGraphModel dx="848" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-2" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="294.73" as="sourcePoint" />
+            <mxPoint x="260" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="50" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="65" y="285" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-5" value="&lt;font color=&quot;#ffffff&quot;&gt;2010 - 2014&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Elementary school &lt;br&gt;Hammerschmiede&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="15" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-6" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="163" y="294" as="sourcePoint" />
+            <mxPoint x="210" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="210" y="390" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="225" y="405" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-9" value="&lt;font color=&quot;#ffffff&quot;&gt;since 2014&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Abenteuerspielplatz &lt;br&gt;Hammerschmiede &lt;br&gt;(Voluntarily)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="170" y="440" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="265" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="280" y="285" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-12" value="&lt;font color=&quot;#ffffff&quot;&gt;2014 - 2020&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Secondary school &lt;br&gt;Maria-Ward-&lt;br&gt;Augsburg&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="230" y="317" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-14" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="294.73" as="sourcePoint" />
+            <mxPoint x="470" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="475" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-16" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="490" y="285" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-18" value="&lt;font color=&quot;#ffffff&quot;&gt;2020 - today&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Training as a developer&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="425" y="330" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-19" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="414.55" as="sourcePoint" />
+            <mxPoint x="750" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-20" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="215" as="sourcePoint" />
+            <mxPoint x="567" y="301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="644" y="173" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-22" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="659" y="188" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-23" value="&lt;font color=&quot;#ffffff&quot;&gt;since 2023&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Project &quot;change in&quot; - &lt;br&gt;Mentor (voluntary)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="604" y="223" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-25" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="533" y="294.52000000000004" as="sourcePoint" />
+            <mxPoint x="748" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HbELugZ7WnRt4IuX17Qe-26" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="706" y="197" as="sourcePoint" />
+            <mxPoint x="750" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="832XDO-BSgQwwUoS8aly" name="WEIß_EN_MOBIL">
+    <mxGraphModel dx="606" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="340" y="80" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="355" y="95" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="340" y="200" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="355" y="215" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-7" value="&lt;font color=&quot;#ffffff&quot;&gt;since 2014&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Abenteuerspielplatz &lt;br&gt;Hammerschmiede &lt;br&gt;(Voluntarily)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="250" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="340" y="330" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="355" y="345" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-10" value="&lt;font color=&quot;#ffffff&quot;&gt;2014 - 2020&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Secondary school &lt;br&gt;Maria-Ward-&lt;br&gt;Augsburg&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="305" y="377" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="340" y="450" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="355" y="465" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-14" value="&lt;font color=&quot;#ffffff&quot;&gt;2020 - today&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Training as a developer&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="290" y="500" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="340" y="550" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="355" y="565" width="21" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="smCdgL7Fb_dVkKEr18ns-19" value="&lt;font color=&quot;#ffffff&quot;&gt;since 2023&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Project &quot;change in&quot; - &lt;br&gt;Mentor (voluntary)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="600" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6J-74-MAvP9BgDFF8eh-1" value="&lt;font color=&quot;#ffffff&quot;&gt;2010 - 2014&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Elementary school &lt;br&gt;Hammerschmiede&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="305" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="n2VUMInTsueWfYXxETgg" name="WEIß_DE_MOBIL">
+    <mxGraphModel dx="848" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="340" y="80" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="355" y="95" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="340" y="200" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="355" y="215" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-5" value="&lt;font color=&quot;#ffffff&quot;&gt;since 2014&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Abenteuerspielplatz &lt;br&gt;Hammerschmiede &lt;br&gt;(Ehrenamtlich)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="250" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="340" y="330" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="355" y="345" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-8" value="&lt;font color=&quot;#ffffff&quot;&gt;2014 - 2020&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;&lt;br&gt;Maria-Ward Realschule&lt;br&gt;Augsburg&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="290" y="382" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="340" y="470" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="355" y="485" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-11" value="&lt;font color=&quot;#ffffff&quot;&gt;2020 - heute&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Ausbildung zum &lt;br&gt;Fachinformatiker für &lt;br&gt;Anwendungsentwicklung&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="285" y="515" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="340" y="580" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="355" y="595" width="21" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-14" value="&lt;font color=&quot;#ffffff&quot;&gt;seit 2023&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Projekt &quot;change in&quot; - &lt;br&gt;Mentor (Ehrenamtlich)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="295" y="630" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QGrQdvYMsewFxVZJOBPb-15" value="&lt;font color=&quot;#ffffff&quot;&gt;2010 - 2014&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Grundschule&lt;br&gt;Hammerschmiede&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="305" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wfH425dntlUHKiMatKoW" name="Werdegang_WEIß_DE">
+    <mxGraphModel dx="848" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-1" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="294.73" as="sourcePoint" />
+            <mxPoint x="260" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="50" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="65" y="285" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-4" value="&lt;font color=&quot;#ffffff&quot;&gt;2010 - 2014&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Grundschule&lt;br&gt;Hammerschmiede&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="15" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-5" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="163" y="294" as="sourcePoint" />
+            <mxPoint x="210" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="210" y="390" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="225" y="405" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-8" value="&lt;font color=&quot;#ffffff&quot;&gt;seit 2014&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Abenteuerspielplatz &lt;br&gt;Hammerschmiede &lt;br&gt;(Ehrenamtlich)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="170" y="440" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="265" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="280" y="285" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-11" value="&lt;font color=&quot;#ffffff&quot;&gt;2014 - 2020&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Maria-Ward Realschule&lt;br&gt;Augsburg&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="215" y="322" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-12" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="294.73" as="sourcePoint" />
+            <mxPoint x="470" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="475" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="490" y="285" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-15" value="&lt;font color=&quot;#ffffff&quot;&gt;2020 - heute&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Ausbildung zum &lt;br&gt;Fachinformatiker für &lt;br&gt;Anwendungsentwicklung&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="420" y="315" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-16" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="414.55" as="sourcePoint" />
+            <mxPoint x="750" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-17" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="215" as="sourcePoint" />
+            <mxPoint x="567" y="301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FF6F00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="644" y="173" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-19" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6F00;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="659" y="188" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-20" value="&lt;font color=&quot;#ffffff&quot;&gt;seit 2023&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#757575&quot;&gt;Projekt &quot;change in&quot; - &lt;br&gt;Mentor (Ehrenamtlich)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="599" y="223" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-21" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="533" y="294.52000000000004" as="sourcePoint" />
+            <mxPoint x="748" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UtPSHsIl7TLRKm5xJTTU-22" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;dashPattern=1 2;endSize=7;rounded=1;strokeColor=#FF6F00;jumpStyle=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="706" y="197" as="sourcePoint" />
+            <mxPoint x="750" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
